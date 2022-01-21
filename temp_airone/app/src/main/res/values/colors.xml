@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#3690b8</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent">#7F000000</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="popup_transparent">#99000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="indicator_on">#011b6a</color>
+    <color name="indicator_off">#b4d1ea</color>
+    <color name="text_title_color">#011b6a</color>
+    <color name="text_tab_color">#666666</color>
+    <color name="text_tab_select_color">#3690b8</color>
+    <color name="text_red_color">#e44222</color>
+
+    <color name="text_color_unknown">#666666</color>
+    <color name="text_color_good">#1d87d8</color>
+    <color name="text_color_normal">#26c588</color>
+    <color name="text_color_bad">#f89c22</color>
+    <color name="text_color_very_bad">#e44222</color>
+
+    <color name="text_user_list_selected">#3690b8</color>
+    <color name="text_user_list_disable">#dddddd</color>
+    <color name="text_user_list_default">#000000</color>
+    <color name="text_push_time_selected">#3690b8</color>
+    <color name="text_push_time_disable">#dddddd</color>
+    <color name="text_push_time_default">#aaaaaa</color>
+    <color name="text_input_default">#aaaaaa</color>
+    <color name="text_input_focused">#000000</color>
+    <color name="invalid_color">#00ffffff</color>
+    <color name="seleced_listview_color">#fafafa</color>
+    <color name="listview_normal">#ffffff</color>
+    <color name="listview_press">#fafafa</color>
+    <color name="sensorbox_connect_background">#3791b8</color>
+    <color name="sensorbox_disconnect_background">#e44324</color>
+    <color name="control_power_off">#011b6a</color>
+    <color name="control_power_on">#3690b8</color>
+    <color name="control_power_off2">#bebebe</color>
+
+    <color name="main_power_on">#4296bc</color>
+    <color name="main_power_off">#646464</color>
+
+    <!-- ikHwang 2019.04.25 제어화면 텍스트 변경 -->
+    <color name="control_off_normal">#646464</color>
+    <color name="control_off_border">#000000</color>
+    <color name="control_tab_off">#DDDDDD</color>
+
+    <!-- ikHwang 2019.04.29 공기질 정보 -->
+    <color name="air_info_title">#000000</color>
+    <color name="air_info_unit">#777878</color>
+    <color name="air_info_content">#464646</color>
+
+    <!-- ikHwang 2019.06.03 프리즘 모델 공통컬러 -->
+    <color name="color_white">#ffffff</color>
+    <color name="color_black">#000000</color>
+    <color name="color_464646">#464646</color>
+    <color name="color_fffefe">#fffefe</color>
+
+    <!-- ikHwang 2019.06.03 프리즘 모델 형식 오류 -->
+    <color name="color_validate">#cf5c5c</color>
+
+    <!-- ikHwang 2019.06.03 프리즘 모델 형식 오류 -->
+    <color name="listview_bg">#fafafa</color>
+</resources>
+

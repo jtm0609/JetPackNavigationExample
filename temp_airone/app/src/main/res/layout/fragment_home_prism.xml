@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layoutCurrontLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgIconLocation"
+                android:layout_width="10.6dp"
+                android:layout_height="16.6dp"
+                app:srcCompat="@drawable/free_icon_main_location_pin" />
+
+            <TextView
+                android:id="@+id/txtCurrentLocation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:text="@string/fragment_home_first_str_1"
+                android:textColor="#646464"
+                android:textSize="12.3dp" />
+
+            <ImageView
+                android:id="@+id/imgInfoAir"
+                android:layout_width="16.6dp"
+                android:layout_height="16.6dp"
+                app:srcCompat="@drawable/free_btn_info_airkorea" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/temp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.6dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgWeather"
+                android:layout_width="37.3dp"
+                android:layout_height="33.3dp"
+                android:layout_gravity="center_vertical"
+                app:srcCompat="@drawable/free_icon_main_weather01"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="8dp"
+                android:orientation="vertical">
+
+                <kr.co.kdone.airone.components.NoPaddingTextView
+                    android:id="@+id/txtWeather"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sunny"
+                    android:textColor="#000000"
+                    android:textSize="13.3dp"
+                    android:layout_gravity="top"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="8.6dp">
+
+                    <LinearLayout
+                        android:id="@+id/layout_temp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="bottom">
+
+                        <kr.co.kdone.airone.components.NoPaddingTextView
+                            android:id="@+id/txtOutsideTemp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textColor="#000000"
+                            android:textSize="16.6dp" />
+
+                        <ImageView
+                            android:id="@+id/imgOutsideTempIcon"
+                            android:layout_width="6.3dp"
+                            android:layout_height="6dp"
+                            android:layout_marginLeft="2.6dp"
+                            android:layout_marginTop="3dp"
+                            app:srcCompat="@drawable/free_main_out_temp" />
+
+                        <FrameLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="#d7dade" />
+
+                        <kr.co.kdone.airone.components.NoPaddingTextView
+                            android:id="@+id/txtOutsideHumidity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textColor="#000000"
+                            android:textSize="16.6dp" />
+
+                        <ImageView
+                            android:id="@+id/imgOutsideHumiIcon"
+                            android:layout_width="7.3dp"
+                            android:layout_height="6dp"
+                            android:layout_marginLeft="2.6dp"
+                            android:layout_marginTop="3dp"
+                            app:srcCompat="@drawable/free_main_out_hum" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <kr.co.kdone.airone.components.NoPaddingTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fragment_home_first_str_2"
+                    android:textSize="12.3dp"
+                    android:textColor="#282828"
+                    android:layout_gravity="center_horizontal|top"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="bottom">
+
+                    <View
+                        android:id="@+id/outside_pm25"
+                        android:layout_width="10.6dp"
+                        android:layout_height="10.6dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@drawable/icon_main_circle_small"/>
+
+                    <TextView
+                        android:id="@+id/text_outside_pm25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginBottom="-1dp"
+                        android:text="@string/unknown"
+                        android:textColor="@color/text_color_unknown"
+                        android:textSize="13.3dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="21.3dp"
+                android:layout_marginRight="21.3dp"
+                android:background="#d7dade"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <kr.co.kdone.airone.components.NoPaddingTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fragment_home_first_str_3"
+                    android:textSize="12.3dp"
+                    android:textColor="#282828"
+                    android:layout_gravity="center_horizontal|top"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="bottom">
+
+                    <View
+                        android:id="@+id/outside_pm10"
+                        android:layout_width="10.6dp"
+                        android:layout_height="10.6dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@drawable/icon_main_circle_small"/>
+
+                    <TextView
+                        android:id="@+id/text_outside_pm10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginBottom="-1dp"
+                        android:text="@string/unknown"
+                        android:textColor="@color/text_color_unknown"
+                        android:textSize="13.3dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d7dade"/>
+
+    <LinearLayout
+        android:id="@+id/layout_sensor_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"/>
+
+    <LinearLayout
+        android:id="@+id/layout_sensor_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+        <ImageView
+            android:layout_width="10.6dp"
+            android:layout_height="10.6dp"
+            app:srcCompat="@drawable/free_icon_main_indoor"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6.6dp"
+            android:textSize="12.3dp"
+            android:textColor="#404040"
+            android:text="@string/fragment_home_first_str_15"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/text_airmonitor_not_connect"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:textSize="12.3dp"
+            android:textColor="#ffffff"
+            android:text="@string/fragment_home_first_str_18"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/btn_error"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"/>
+
+        <ImageView
+            android:layout_width="13.3dp"
+            android:layout_height="13.3dp"
+            android:layout_marginTop="1dp"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/free_icon_main_in_temp" />
+
+        <kr.co.kdone.airone.components.NoPaddingTextView
+            android:id="@+id/txtInsideTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3.3dp"
+            android:layout_marginRight="2.6dp"
+            android:textColor="#000000"
+            android:textSize="16.6dp" />
+
+        <ImageView
+            android:id="@+id/imgInsideTempIcon"
+            android:layout_width="6.3dp"
+            android:layout_height="6dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="3dp"
+            app:srcCompat="@drawable/free_main_out_temp" />
+
+        <FrameLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="#d7dade" />
+
+        <ImageView
+            android:layout_width="13.3dp"
+            android:layout_height="13.3dp"
+            android:layout_marginTop="1dp"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/free_icon_main_in_hum" />
+
+        <kr.co.kdone.airone.components.NoPaddingTextView
+            android:id="@+id/txtInsideHumidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3.3dp"
+            android:layout_marginRight="2.6dp"
+            android:textColor="#000000"
+            android:textSize="16.6dp" />
+
+        <ImageView
+            android:id="@+id/imgInsideHumiIcon"
+            android:layout_width="7.3dp"
+            android:layout_height="6dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="3dp"
+            app:srcCompat="@drawable/free_main_out_hum" />
+    </LinearLayout>
+
+
+    <!-- ikHwang 2019-06-10 메인화면 센서 정보 있음, 디폴트화면 -->
+    <!-- 실내 온도, 습도 레이아웃 -->
+
+
+    <!-- 통합 공기질 레이아웃 -->
+    <LinearLayout
+        android:id="@+id/layout_sensor_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_total"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:background="@drawable/total_disable"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/text_total_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13.3dp"
+                android:visibility="gone"
+                android:textColor="@color/color_white"
+                android:text="@string/fragment_home_first_str_16"/>
+
+            <kr.co.kdone.airone.components.NoPaddingTextView
+                android:id="@+id/text_total_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="43.3dp"
+                android:visibility="gone"
+                android:textColor="@color/color_white"/>
+
+            <TextView
+                android:id="@+id/text_total_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fragment_home_first_str_4"
+                android:textSize="16dp"
+                android:textColor="@color/color_white"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_sensor_4"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"/>
+
+    <!-- 실내 센싱 정보 -->
+    <LinearLayout
+        android:id="@+id/layout_sensor_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/base_pm1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:paddingTop="5dp"
+                android:background="@drawable/icon_main_circle"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/text_pm1_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:textColor="#000000"
+                    android:textSize="12dp" />
+
+                <FrameLayout
+                    android:layout_width="50dp"
+                    android:layout_height="1dp"
+                    android:background="#d7dade">
+                </FrameLayout>
+
+                <kr.co.kdone.airone.components.NoPaddingTextView
+                    android:id="@+id/text_pm1_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:textColor="#000000"
+                    android:textSize="13.6dp"/>
+
+                <TextView
+                    android:id="@+id/text_pm1_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fragment_home_first_str_5"
+                    android:textColor="#828282"
+                    android:textSize="7.6dp"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_pm1_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="#282828"
+                android:textSize="12.3dp"
+                android:text="@string/fragment_home_first_str_7"
+                android:visibility="visible"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/base_pm25"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:paddingTop="5dp"
+                android:background="@drawable/icon_main_circle"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/text_pm25_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:textColor="#000000"
+                    android:textSize="12dp"/>
+
+                <FrameLayout
+                    android:layout_width="50dp"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#d7dade">
+
+                </FrameLayout>
+
+                <kr.co.kdone.airone.components.NoPaddingTextView
+                    android:id="@+id/text_pm25_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:textColor="#000000"
+                    android:textSize="13.6dp"/>
+
+                <TextView
+                    android:id="@+id/text_pm25_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fragment_home_first_str_5"
+                    android:textColor="#828282"
+                    android:textSize="7.6dp"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_pm25_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="#282828"
+                android:text="@string/fragment_home_first_str_8"
+                android:visibility="visible"
+                android:textSize="12.3dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/base_co2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:paddingTop="5dp"
+                android:background="@drawable/icon_main_circle"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/text_co2_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:textColor="#000000"
+                    android:textSize="12dp" />
+
+                <FrameLayout
+                    android:layout_width="50dp"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#d7dade">
+
+                </FrameLayout>
+
+                <kr.co.kdone.airone.components.NoPaddingTextView
+                    android:id="@+id/text_co2_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:textColor="#000000"
+                    android:textSize="13.6dp"/>
+
+                <TextView
+                    android:id="@+id/text_co2_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#828282"
+                    android:textSize="7.6dp"
+                    android:text="@string/fragment_home_first_str_6"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_co2_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="#282828"
+                android:textSize="12.3dp"
+                android:text="@string/fragment_home_first_str_9"
+                android:visibility="visible"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/base_layout_radon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/base_radon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:paddingTop="5dp"
+                android:background="@drawable/icon_main_circle"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/text_radon_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:textColor="#000000"
+                    android:textSize="12dp"/>
+
+                <FrameLayout
+                    android:layout_width="50dp"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#d7dade">
+
+                </FrameLayout>
+
+                <kr.co.kdone.airone.components.NoPaddingTextView
+                    android:id="@+id/text_radon_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:textColor="#000000"
+                    android:textSize="13.6dp"/>
+
+                <TextView
+                    android:id="@+id/text_radon_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#828282"
+                    android:textSize="7.6dp"
+                    android:text="@string/fragment_home_first_str_17"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_radon_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="#282828"
+                android:textSize="12.3dp"
+                android:text="@string/fragment_home_first_str_19"
+                android:visibility="visible"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/base_tvoc"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:paddingTop="5dp"
+                android:background="@drawable/icon_main_circle"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/text_tvoc_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:textColor="#000000"
+                    android:textSize="12dp"/>
+
+                <FrameLayout
+                    android:layout_width="50dp"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#d7dade">
+
+                </FrameLayout>
+
+                <kr.co.kdone.airone.components.NoPaddingTextView
+                    android:id="@+id/text_tvoc_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:textColor="#000000"
+                    android:textSize="13.6dp"/>
+
+                <TextView
+                    android:id="@+id/text_tvoc_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#828282"
+                    android:textSize="7.6dp"
+                    android:text="@string/fragment_home_first_str_17"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_tvoc_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="#282828"
+                android:textSize="12.3dp"
+                android:text="@string/fragment_home_first_str_10"
+                android:visibility="visible"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_sensor_6"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.6"
+        android:orientation="vertical"/>
+
+    <!-- ikHwang 2019-06-10 메인화면 에어모니터 없음 연결 안내 UI -->
+    <LinearLayout
+        android:id="@+id/layout_no_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="21"
+        android:orientation="vertical"
+        android:gravity="center_horizontal|bottom"
+        android:paddingBottom="30dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/free_bg_home_noti01"
+            android:paddingTop="17dp"
+            android:paddingBottom="27dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fragment_home_first_str_13"
+                android:textColor="#000000"
+                android:textSize="14.6dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_help_paring"
+            android:layout_width="53.3dp"
+            android:layout_height="53.3dp"
+            android:layout_marginTop="16.6dp"
+            android:background="@drawable/free_main_btn_paring"
+            android:stateListAnimator="@null"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/fragment_home_first_str_14"
+            android:textColor="#3690b8"
+            android:textSize="12.3dp"/>
+    </LinearLayout>
+
+    <!--  청정환기 동작상태 표시 레이아웃  -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_sensor_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/img_rc_state"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:src="@drawable/main_img_fan_off"
+            android:scaleType="fitXY"
+            android:layout_marginEnd="5dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/layoutConnectingSensor"/>
+
+        <LinearLayout
+            android:id="@+id/layoutConnectingSensor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/base_uv"
+            app:layout_constraintHorizontal_chainStyle="packed">
+
+            <TextView
+                android:id="@+id/txt_rc_state1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/HomeFirstFragment_str_3"
+                android:textColor="@color/control_off_normal"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/txt_rc_state2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="@string/HomeFirstFragment_str_3"
+                android:textColor="@android:color/black"
+                android:textSize="13dp"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/base_uv"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/layoutConnectingSensor"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="13dp"
+                android:background="@color/main_power_on"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/text_uv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_uv_on"
+                android:textColor="@color/color_white"
+                android:text="@string/HomeFirstFragment_str_7"
+                android:textSize="12dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--  메인화면 청정환기 동작상태 변경되면서 제거됨 임시 주석처리  -->
+    <!--<LinearLayout
+        android:id="@+id/layout_sensor_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingBottom="30dp">
+
+        <RelativeLayout
+            android:id="@+id/layout_connect_airmonitor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="16.6dp"
+                android:layout_height="16.6dp"
+                android:layout_marginRight="4dp"
+                app:srcCompat="@drawable/free_icon_paring"
+                android:layout_toLeftOf="@+id/txt_connect"/>
+
+            <TextView
+                android:id="@+id/txt_connect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/fragment_home_first_str_11"
+                android:textColor="#282828"
+                android:textSize="13dp"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/text_disconnect_airmonitor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_home_first_str_12"
+            android:textColor="#3690b8"
+            android:textSize="13.3dp"/>
+    </LinearLayout>-->
+
+
+</LinearLayout>

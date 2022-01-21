@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/bg_main"
+    tools:context=".activity.main.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layoutActionBar"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="0dp">
+
+        <ImageView
+            android:id="@+id/btnHelp"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:onClick="onClick"
+            app:srcCompat="@drawable/icon_header_main_help" />
+
+        <RelativeLayout
+            android:id="@+id/layoutActionBarTitle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                app:srcCompat="@drawable/logo_login_465" />
+
+            <LinearLayout
+                android:id="@+id/layoutIndicator"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/btnMore"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:onClick="onClick"
+            app:srcCompat="@drawable/icon_header_main_set" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/layoutUnderLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cccccc"
+        app:layout_constraintBottom_toTopOf="@+id/layoutMenus"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+    </FrameLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/layoutUnderLine"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutActionBar"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+        android:id="@+id/layoutPush"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/border_listview_select_device_item_default"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/layoutMenus"
+        app:layout_constraintEnd_toEndOf="@+id/viewPager"
+        app:layout_constraintStart_toStartOf="@+id/viewPager"
+        android:visibility="invisible"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgPush"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            app:srcCompat="@drawable/icon_noti" />
+
+        <LinearLayout
+            android:id="@+id/layoutPushText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtPush1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/txtPush2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#8c8c8c"
+                android:textSize="12dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <kr.co.kdone.airone.components.MainMenu
+        android:id="@+id/layoutMenus"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:selectedIndex="0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

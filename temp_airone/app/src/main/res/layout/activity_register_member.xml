@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.register.RegisterMemberActivity">
+
+    <RelativeLayout
+        android:id="@+id/layoutActionBar"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:onClick="onClick"
+            android:scaleType="center"
+            app:srcCompat="@drawable/icon_header_back" />
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/logo_login_465" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutButtons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <LinearLayout
+            android:id="@+id/layoutOK"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/btn_confirm"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <TextView
+                android:id="@+id/txtOK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/confirm"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/layoutButtons"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutActionBar">
+
+        <LinearLayout
+            android:id="@+id/layoutTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_register_member_str_1"
+                android:textColor="#000000"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="@string/activity_register_member_str_2"
+                android:textColor="#373737"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/txtID"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/text_box_line"
+                android:ems="10"
+                android:hint="@string/activity_register_member_str_3"
+                android:inputType="textEmailAddress"
+                android:paddingStart="13dp"
+                android:paddingEnd="43dp"
+                android:textColor="#000000"
+                android:textColorHint="#aaaaaa"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/btnDeleteID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="13dp"
+                android:onClick="onClick"
+                android:visibility="gone"
+                app:srcCompat="@drawable/btn_text_delete" />
+
+            <Button
+                android:id="@+id/btn_member_check"
+                android:layout_width="65dp"
+                android:layout_height="25dp"
+                android:text="@string/activity_register_member_str_8"
+                android:textColor="@color/color_white"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="13dp"
+                android:background="@drawable/bg_btn_box"
+                android:onClick="onClick"
+                android:visibility="visible"
+                android:textSize="13dp"
+                android:stateListAnimator="@null"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:id="@+id/txtPass"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/text_box_line"
+                android:ems="10"
+                android:hint="@string/activity_register_member_str_4"
+                android:inputType="textPassword"
+                android:paddingStart="13dp"
+                android:paddingEnd="43dp"
+                android:textColor="#000000"
+                android:textColorHint="#aaaaaa"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/btnDeletePass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="13dp"
+                android:onClick="onClick"
+                android:visibility="gone"
+                app:srcCompat="@drawable/btn_text_delete" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/text_hint_pw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:paddingStart="13dp"
+            android:text="@string/activity_register_member_str_6"
+            android:textColor="@color/color_validate"
+            android:textSize="10dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:id="@+id/txtPassConfirm"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/text_box_line"
+                android:ems="10"
+                android:hint="@string/activity_register_member_str_5"
+                android:inputType="textPassword"
+                android:paddingStart="13dp"
+                android:paddingEnd="43dp"
+                android:textColor="#000000"
+                android:textColorHint="#aaaaaa"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/btnDeletePassConfirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="13dp"
+                android:onClick="onClick"
+                android:visibility="gone"
+                app:srcCompat="@drawable/btn_text_delete" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp">
+
+            <TextView
+                android:id="@+id/txtErrorPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/activity_register_member_str_7"
+                android:textColor="@color/color_validate"
+                android:textSize="10dp"
+                android:visibility="gone"/>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

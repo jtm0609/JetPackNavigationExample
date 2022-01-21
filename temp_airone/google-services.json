@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "359000451898",
+    "firebase_url": "https://aireone-1a5c8.firebaseio.com",
+    "project_id": "aireone-1a5c8",
+    "storage_bucket": "aireone-1a5c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359000451898:android:5d4125a23ac84bfe",
+        "android_client_info": {
+          "package_name": "kr.co.kdone.airone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359000451898-5fnea3qm5pg125r59qjf889aejh33261.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.co.kdone.airone",
+            "certificate_hash": "ad3f9f5d51ff4e1a8354ad27fe386022b26d1edd"
+          }
+        },
+        {
+          "client_id": "359000451898-llm329h83tqoea2ciu04lkegf0r5mfnt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRgjSxELEyEOG1P2UwppLXskLIPdEVDgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359000451898-llm329h83tqoea2ciu04lkegf0r5mfnt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "359000451898-4n89753fj3pso97c54738tt50as7pbs8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.navien.AirOne.kr",
+                "app_store_id": "1425687277"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

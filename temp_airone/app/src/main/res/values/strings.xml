@@ -1,0 +1,1252 @@
+<resources>
+    <string name="app_name">나비엔 에어원</string>
+    <string name="navien">경동나비엔</string>
+    <string name="navien_tac">나비엔 에어 룸콘트롤러</string>
+    <string name="on_off">운전/정지</string>
+    <string name="pass">건너뛰기</string>
+
+    <string name="ok">확인</string>
+    <string name="no">아니오</string>
+    <string name="init">앱 초기화</string>
+    <string name="setting">설정</string>
+    <string name="withdraw">탈퇴</string>
+    <string name="register">등록</string>
+    <string name="show_more">더보기</string>
+    <string name="agree">동의</string>
+    <string name="withdraw_after_set_admin">관리자 지정 후 탈퇴하기</string>
+    <string name="cancel">취소</string>
+    <string name="edit">편집</string>
+    <string name="close">닫기</string>
+    <string name="save">저장</string>
+    <string name="month">월</string>
+    <string name="week">주</string>
+    <string name="day">일</string>
+    <string name="share">인증코드 전달하기</string>
+    <string name="network">네트워크</string>
+    <string name="push_alarm">Push 알림</string>
+    <string name="push_alarm_time">허용시간 설정</string>
+    <string name="start_time">시작시간</string>
+    <string name="stop_time">종료시간</string>
+    <string name="success_changing">수정완료</string>
+    <string name="total_air_value">통합공기질</string>
+    <string name="do_delete">삭제하기</string>
+    <string name="push_alram">PUSH 알림</string>
+    <string name="terms_title">서비스 이용약관</string>
+    <string name="terms_title2">개인정보 수집 및 이용 동의</string>
+    <string name="access_terms">이용약관</string>
+    <string name="privacy_terms">개인정보 취급방침</string>
+    <string name="do_not_show_again">다시보지 않기</string>
+    <string name="confirm">확인</string>
+    <string name="refresh">새로고침</string>
+    <string name="more">더보기</string>
+    <string name="login">로그인</string>
+    <string name="logout">로그아웃</string>
+    <string name="loading_logout">로그아웃 중입니다..</string>
+    <string name="control">제어</string>
+    <string name="notice">공지사항</string>
+    <string name="templature">온도</string>
+    <string name="remove_user">회원탈퇴</string>
+    <string name="hour">시</string>
+    <string name="minute">분</string>
+    <string name="sensorbox">에어모니터</string>
+    <string name="disconnected">해제</string>
+    <string name="connect">연결</string>
+    <string name="connected">연결됨</string>
+    <string name="register_device">기기추가</string>
+    <string name="register_device2">기기등록</string>
+    <string name="resend_auth_mail">인증메일 다시 보내기</string>
+    <string name="setting_login">로그인 설정</string>
+    <string name="setting_device">기기 설정</string>
+    <string name="select_device">기기 선택</string>
+    <string name="manager_device">기기관리</string>
+    <string name="control_device">제어기기</string>
+    <string name="device_info">제품정보</string>
+    <string name="smart_guide">스마트가이드</string>
+    <string name="user_guide">사용설명서</string>
+    <string name="app_info">앱정보</string>
+    <string name="help">도움말</string>
+    <string name="air_info">공기질 정보</string>
+    <string name="filter_manage">필터 관리</string>
+    <string name="filter_life">필터 수명</string>
+    <string name="filter_reset">필터 리셋</string>
+    <string name="filter_buy">필터 구매하기</string>
+    <string name="cs_center">고객지원</string>
+    <string name="auto_login">자동로그인</string>
+    <string name="edit_userinfo">회원정보 수정</string>
+    <string name="setting_user">사용자 설정</string>
+    <string name="add_user">사용자 추가</string>
+    <string name="manager_user">사용자 관리</string>
+    <string name="select_admin">관리자 지정</string>
+    <string name="count_user">%s명</string>
+    <string name="admin">관리자</string>
+    <string name="init_app">앱초기화</string>
+    <string name="setting_admin">관리자 설정</string>
+    <string name="smartalarm">스마트알림</string>
+    <string name="add_device">+ 기기 추가</string>
+    <string name="add_user_plus">+ 사용자 추가</string>
+    <string name="init_app_popup_confirm">나비엔 에어원의 모든 데이터가\n초기화 됩니다.\n앱을 초기화 하시겠습니까?</string>
+    <string name="init_app_popup_success">나비엔 에어원 앱이 초기화 되었습니다.</string>
+    <string name="deleted_user_popup_success">선택한 사용자가 삭제 되었습니다.</string>
+    <string name="error_states_device_no_database_popup">제어할 기기를 찾지 못하였습니다.\n기기설정에서 제어 기기를 선택해주세요.</string>
+    <string name="error_states_device_no_connected_popup">기기와 연결되지 않았습니다.\n네트워크와 공유기를 확인하시고 다시 시도해주세요.</string>
+    <string name="error_states_no_control_device_popup">제어기기가 선택되지 않았습니다\n제어기기를 선택해주세요.</string>
+    <string name="withdraw_popup_confirm">회원 탈퇴 시 등록하신 모든 정보가 삭제됩니다. 회원 탈퇴를 하시겠습니까?</string>
+    <string name="withdraw_popup_success">회원 탈퇴가 완료 되었습니다.</string>
+    <string name="change_admin_popup_success">관리자가 변경되었습니다.\n권한을 초기화되어 로그인화면으로 이동합니다.</string>
+    <string name="change_admin_popup_success_and_withdraw_me">관리자가 변경되었습니다.\n잠시후 회원탈퇴를 진행합니다.</string>
+    <string name="error_firstsend_for_control_device">제어 기기의 초기 통신이\n실패하여 종료합니다.</string>
+    <string name="error_connect_for_control_device">제어 기기가 서버와 통신이\n실패하여 종료합니다.</string>
+    <string name="error_reservation_sleep_mode_until_poweroff">정지 중일 경우에는\n취침 예약을 설정 할 수 없습니다.</string>
+
+    <!--<string name="error_code_device_094">온도 센서 에러가 발생했습니다.</string>
+    <string name="error_code_device_101">배기팬 에러가 발생했습니다.</string>
+    <string name="error_code_device_102">급기팬 에러가 발생했습니다.</string>
+    <string name="error_code_device_120">히터 과열 에러가 발생했습니다.</string>
+    <string name="error_code_device_160">APS 센서 오류가 감지되었습니다.</string>
+    <string name="error_code_device_161">SOL 밸브 센서 오류가 감지되었습니다.</string>
+    <string name="error_code_device_506">외기 온도 센서 에러가 발생했습니다.</string>
+    <string name="error_code_device_507">HEAT 온도 센서 에러가 발생했습니다.</string>
+    <string name="error_code_device_516">SA 온도 센서 에러가 발생했습니다.</string>
+    <string name="error_code_device_517">OA 습도 센서 에러가 발생했습니다.</string>
+    <string name="error_code_device_518">OA 온도 센서 에러가 발생했습니다.</string>
+    <string name="error_code_device_715">통신에러가 발생했습니다.</string>-->
+
+    <!--  청정환기 프리즘 / 제습청정 공통  -->
+    <string name="error_code_api_502">입력 정보의 오류가 발생했습니다.\n다시 시도해 주세요.</string>
+
+    <!--  청정환기 프리즘 / 제습청정 공통  -->
+    <string name="error_code_device_094">온도 센서에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_101">FAN에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_102">FAN에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_120">히터에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_160">자동필터알람에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_161">자동필터알람에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_506">온도 센서에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_507">히터에 문제가 발생 했습니다.\n[Cod : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_516">온도 센서에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_517">습도 센서에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_518">온도 센서에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_715">통신에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+
+    <!--  청정환기 키친플러스  -->
+    <string name="error_code_device_170">디퓨저에 문제가 발생했습니다. [Code : %03d-%02d] 고객센터 1588-1144</string>
+    <string name="error_code_device_770">디퓨저에 문제가 발생했습니다. [Code : %03d-%02d] 고객센터 1588-1144</string>
+
+    <!--  청정환기 제습청정  -->
+    <string name="error_code_device_105">제습로터에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_301">제습 드레인에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_503">온도 센서에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_504">온도 센서에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_505">온도 센서에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_508">온도 센서에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_515">습도 센서에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_626">저장에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_721">통신에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_801">컴프레셔에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_802">컴프레셔에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_803">컴프레셔에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_804">컴프레셔에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+    <string name="error_code_device_805">컴프레셔에 문제가 발생 했습니다.\n[Code : %03d] 고객센터 1588-1144</string>
+
+    <string name="select_device_for_ap">스마트폰의 설정->WIFI메뉴에서 스마트폰과 제품을 연결해주세요.</string>
+    <string name="select_device_for_ap_get_id">제품아이디를 가져오기 위해,\n1. 에어 룸콘트롤러를 AP모드로 변경해 주세요.\n2. 핸드폰의 설정에서 Wi-Fi를 연결해 주세요.\n\n 연결이 완료되면 아래 [다음] 버튼을 눌러주세요.</string>
+    <string name="select_device_for_ap_get_id_mark">[다음]</string>
+    <string name="check_wifi_for_get_id">제품과 스마트폰의 Wi-Fi 연결을 설정해 주세요.</string>
+    <!--<string name="check_wifi_for_get_id_mark">[WiFi 연결 설정]</string>-->
+    <string name="check_wifi_for_get_id_mark"> </string>
+    <string name="check_network">인터넷에 연결 중입니다. 잠시만 기다려주세요.</string>
+    <string name="can_not_geting_id">제품아이디를 가져오지 못하였습니다.</string>
+    <string name="menu_home">홈</string>
+    <string name="menu_control">제어</string>
+    <string name="menu_smartalarm">스마트알림</string>
+    <string name="menu_lifereport">생활리포트</string>
+    <string name="menu_more">더보기</string>
+    <string name="menu_tips">에어원팁</string>
+    <string name="delete_device">기기삭제</string>
+    <string name="change_ap">WIFI 설정하기</string>
+    <string name="select_ap">공유기 선택</string>
+    <string name="outside">실외</string>
+    <string name="inside">실내</string>
+    <string name="unknown">정보없음</string>
+    <string name="unknown2line">정보\n없음</string>
+    <string name="good">좋음</string>
+    <string name="normal">보통</string>
+    <string name="bad">나쁨</string>
+    <string name="very_bad">매우나쁨</string>
+    <string name="very_bad_2line">매우\n나쁨</string>
+    <string name="device_name">기기 이름</string>
+    <string name="current_version">현재 버전</string>
+    <string name="ventilation">청정환기</string>
+    <string name="air_clean">실내청정</string>
+    <string name="humidification">가습</string>
+    <string name="dehumidification">제습</string>
+    <string name="humidity">습도</string>
+    <string name="current">현재</string>
+    <string name="auto">자동</string>
+    <string name="auto_control">자동운전</string>
+    <string name="total">종합</string>
+    <string name="on">켜짐</string>
+    <string name="off">꺼짐</string>
+    <string name="email">이메일</string>
+
+    <string name="delete_user">사용자 삭제</string>
+    <string name="do_remove_user">회원 탈퇴하기</string>
+    <string name="do_not_delete_device">기기리스트에 1개의 기기가 존재합니다.\n마지막 1개의 기기는 삭제하실 수 없습니다.</string>
+    <string name="do_delete_device">%s 를 앱에서 삭제하시겠습니까? 삭제시, 해당 기기의 모든 정보가 삭제됩니다.</string>
+    <string name="deleted_selected_device">선택한 기기를 삭제하였습니다.</string>
+
+    <string name="zone_control">존컨트롤</string>
+    <string name="all_on_off">전체운전</string>
+    <string name="register_device_info">기기정보를 등록해 주세요.</string>
+    <string name="find_location">위치찾기</string>
+    <string name="select_location">위치를 선택해 주세요.</string>
+    <string name="location_permission">위치정보를 가져오기 위해서 권한이 필요합니다.</string>
+    <string name="gps_off">위치 서비스 기능(GPS)을 설정해주세요.</string>
+    <string name="permission_off">청정환기 제품과 연결하기 위해서는 위치 권한이 필요합니다.\n[설정] > [권한]에서 위치 권한을 허용 후 다시 시도해주세요.</string>
+    <string name="gps_info_error">위치정보를 가져오는 중입니다.</string>
+    <string name="device_id_len">제품아이디 16자리</string>
+    <string name="find_id">아이디 찾기</string>
+    <string name="find_id_btn">아이디를 잊어버리셨나요?</string>
+    <string name="find_password">비밀번호 찾기</string>
+    <string name="find_password_btn">비밀번호를 잊어버리셨나요?</string>
+    <string name="modify_password">비밀번호 변경</string>
+    <string name="view_privacy">개인정보 처리방침</string>
+    <string name="doing_register">위치등록</string>
+    <string name="ap">무선공유기</string>
+    <string name="micro_dust">초미세먼지</string>
+    <string name="dust">미세먼지</string>
+    <string name="sunny">맑음</string>
+    <string name="cloudy">구름</string>
+    <string name="rain">비</string>
+    <string name="snow">눈</string>
+    <string name="rain_snow">비,눈</string>
+    <string name="co2">CO2</string>
+    <string name="tvoc">TVOC</string>
+    <string name="pm1">PM1.0</string>
+    <string name="pm25">PM2.5</string>
+    <string name="pm10">PM10</string>
+    <string name="inside_total">통합공기질</string>
+    <string name="smart_report">생활리포트</string>
+    <string name="smart_report_prism">공기리포트</string>
+    <string name="connecting_sensorbox">에어모니터 연결</string>
+    <string name="sign_up">회원가입</string>
+    <string name="hint_input_id">아이디</string>
+
+
+
+    <string name="input_user_info">회원님의 정보를 입력해 주세요.</string>
+
+    <string name="hint_input_mobile_number">형식에 맞지 않는 번호입니다.</string>
+
+    <string name="hint_button_duplication_check">중복체크</string>
+    <string name="toast_duplecation_false">아이디 중복확인을 해주세요.</string>
+
+    <string name="user_name">이름</string>
+
+
+
+    <string name="input_register_member_content">아이디와 비밀번호를 입력해 주세요.</string>
+
+    <string name="mobile_number">핸드폰 번호</string>
+
+    <string name="next">다음</string>
+
+    <string name="hint_input_password">비밀번호는 영문,숫자를 포함하여 10자리 이상으로 구성해 주세요.</string>
+
+    <string name="password">비밀번호</string>
+    <string name="confirm_password">비밀번호 확인</string>
+    <string name="current_password">현재 비밀번호</string>
+    <string name="new_password">새 비밀번호</string>
+    <string name="confirm_new_password">새 비밀번호 확인</string>
+
+    <string name="select_register_device">등록하실 기기를 선택하세요</string>
+    <string name="select_to_control_device">제어할 기기를 선택하세요</string>
+    <string name="register_to_selected_sensorbox">선택한 에어모니터를 등록하시겠습니까?</string>
+    <string name="unregister_to_selected_sensorbox">%s와 페어링된 에어모니터의 연결을 해제 하시겠습니까?</string>
+    <string name="can_not_changing_sensorbox_for_subuser">서브 회원은 사용할 수 없는 기능 입니다. 메인 계정으로 로그인 후 이용해주세요.</string>
+    <string name="select_to_connect_sensorbox">연결할 에어모니터를 선택해 주세요.</string>
+    <string name="progressbar_humi_min">LO</string>
+    <string name="progressbar_humi_max">HI</string>
+    <string name="select_to_device">기기를 선택해주세요.</string>
+    <string name="select_to_sensorbox">기기를 선택해주세요.</string>
+    <string name="successed_reg_sensorbox">에어모니터 등록이 완료되었습니다.</string>
+    <string name="successed_unreg_sensorbox">에어모니터 해제되었습니다.</string>
+    <string name="can_register_no_sensorbox">등록할 에어모니터가 없습니다.</string>
+    <string name="send_to">Send to : </string>
+    <string name="result_no_device_from_db">디바이스 정보가 존재하지 않습니다.</string>
+    <string name="result_selected_control_device">제어할 기기가 %s로 설정되었습니다</string>
+    <string name="result_no_sensorbox">에어모니터가 존재하지 않습니다.</string>
+    <string name="result_no_data_smartalarm">스마트알림 정보가 없습니다.</string>
+    <string name="result_cant_control_with_sensorbox">에어모니터는 제어를 할 수가 없습니다.</string>
+    <string name="do_logout">로그아웃 하시겠습니까?</string>
+    <string name="do_to_change_ap">공유기를 변경하시겠습니까?</string>
+    <string name="unknown_location">위치정보 알수없음</string>
+    <string name="editview_id_hint">아이디</string>
+    <string name="error_inpput_email">아이디을 입력해주세요.</string>
+    <string name="error_inpput_not_email">이메일 형식이 아닙니다.</string>
+    <string name="error_inpput_password">비밀번호를 10자리 이상 입력해주세요.</string>
+    <string name="error_inpput_not_form_password">형식에 맞는 비밀번호를 입력해 주세요.</string>
+    <string name="error_inpput_not_same_password">비밀번호가 일치하지 않습니다.</string>
+    <string name="error_inpput_incorrect_password">입력하신 비밀번호가 올바르지 않습니다.</string>
+    <string name="error_inpput_name">이름을 입력해주세요.</string>
+    <string name="error_inpput_phone">핸드폰 번호를 입력해 주세요.</string>
+    <string name="error_inpput_phone_confirm">핸드폰 번호를 확인해 주세요.</string>
+    <string name="error_inpput_phone_num">핸드폰번호는 숫자만 입력 가능합니다.</string>
+    <string name="setting_humi">희망습도</string>
+    <string name="current_humi">현재습도</string>
+    <string name="setting_wind">풍량세기</string>
+    <string name="wind_level">바람세기</string>
+    <string name="cant_selected_admin">사용자가 1명 이하인 경우\n관리자 지정을 하지 못합니다.</string>
+    <string name="am">오전</string>
+    <string name="pm">오후</string>
+    <string name="connection_sensorbox">에어모니터 연결 중</string>
+    <string name="connection_sensorbox_for_nickname">%s 연결됨</string>
+    <string name="result_successed_saving_push">푸시 알람 정보가 적용되었습니다.</string>
+    <string name="poiont">기준</string>
+
+    <string name="toast_logout_fail">로그아웃 요청에 실패했습니다.\n다시 시도해주세요.</string>
+
+    <string name="weather_type_1">맑음</string>
+    <string name="weather_type_2">구름조금</string>
+    <string name="weather_type_3">구름많음</string>
+    <string name="weather_type_4">흐림</string>
+    <string name="weather_type_5">흐린 후 차차 갬</string>
+    <string name="weather_type_6">맑은 후 차차 흐려짐</string>
+    <string name="weather_type_7">소나기</string>
+    <string name="weather_type_8">오전 소나기</string>
+    <string name="weather_type_9">오후 소나기</string>
+    <string name="weather_type_10">흐리고 비</string>
+    <string name="weather_type_11">오전 비</string>
+    <string name="weather_type_12">오후 비</string>
+    <string name="weather_type_13">차차 흐려져 비</string>
+    <string name="weather_type_14">차차 흐려져 오후 비</string>
+    <string name="weather_type_15">비온후 갬</string>
+    <string name="weather_type_16">오전 비온후 갬</string>
+    <string name="weather_type_17">오후 비 온후 갬</string>
+    <string name="weather_type_18">흐리고 눈</string>
+    <string name="weather_type_19">오전 눈</string>
+    <string name="weather_type_20">오후 눈</string>
+    <string name="weather_type_21">차차 흐려져 눈</string>
+    <string name="weather_type_22">차차 흐려져 오후 눈</string>
+    <string name="weather_type_23">눈 온후갬</string>
+    <string name="weather_type_24">오전 눈온후 갬</string>
+    <string name="weather_type_25">오후 눈 온후 갬</string>
+    <string name="weather_type_26">비또는 눈</string>
+    <string name="weather_type_27">오전 비 또는 눈</string>
+    <string name="weather_type_28">오후 비또는 눈</string>
+    <string name="weather_type_29">차차 흐려져 비 또는 눈</string>
+    <string name="weather_type_30">차차 흐려져 오후 비 또는 눈</string>
+    <string name="weather_type_31">눈또는 비</string>
+    <string name="weather_type_32">오전 눈 또는 비</string>
+    <string name="weather_type_33">오후 눈 또는 비</string>
+    <string name="weather_type_34">차차 흐려져 눈 또는 비</string>
+    <string name="weather_type_35">차차 흐려져 오후 비 또는 눈</string>
+    <string name="weather_type_36">눈 또는 비 온후 갬</string>
+    <string name="weather_type_37">오전 비 또는 눈/눈 또는 비 온후 갬</string>
+    <string name="weather_type_38">오후 비 또는 눈/눈 또는 비 온후 갬</string>
+    <string name="weather_type_39">천둥번개</string>
+    <string name="weather_type_40">안개</string>
+
+    <string name="sample_location">주소를 불러오는 중입니다.</string>
+    <string name="sample_location2">강남구 수서동</string>
+    <string name="sample_date_time">2017.09.28 목요일 13:00</string>
+    <string name="sample_date">2017.9.18 월요일</string>
+    <string name="sample_time">00:00</string>
+    <string name="sample_time2">00</string>
+    <string name="sample_smartalram_title">[실내 CO2 경보]</string>
+    <string name="sample_smartalram_subtitle">실내산소가 부족합니다.\n일반환기로 실내에 산소를 공급해주세요.</string>
+    <string name="sample_smartalram_navienhouse">나비엔하우스 바로가기 ></string>
+
+    <string name="reservation">예약설정</string>
+    <string name="reservation_no">없음</string>
+    <string name="reservation_on">켜짐예약</string>
+    <string name="reservation_off">꺼짐예약</string>
+    <string name="reservation_sleep">취침예약</string>
+    <string name="reservation_no_type">타입없음</string>
+
+    <string name="deep_sleep">숙면설정</string>
+    <string name="deep_sleep_start">켜짐시간</string>
+    <string name="deep_sleep_end">꺼짐시간</string>
+    <string name="deep_sleep_on">%s 켜짐</string>
+    <string name="deep_sleep_off">%s 꺼짐</string>
+
+    <string name="uv_led">UV설정</string>
+
+    <string name="normal_ventilation">일반환기</string>
+    <string name="clean_ventilation">에어 룸콘트롤러</string>
+    <string name="input_device_hint">제품별명 입력</string>
+
+    <string name="bypass">바이패스</string>
+
+    <string name="device_roomcon">에어 룸콘트롤러 확인하기</string>
+    <string name="device_sensorbox">에어모니터</string>
+
+    <string name="mode_normal">일반모드</string>
+    <string name="mode_vent">환기모드</string>
+    <string name="mode_exhaust">배기모드</string>
+    <string name="mode_clean">청소모드</string>
+    <string name="mode_kitchen">요리모드</string>
+    <string name="mode_aeration">급기모드</string>
+    <string name="mode_turbo">터보운전</string>
+    <string name="mode_sleep">숙면모드</string>
+    <string name="mode_pwr_saving">절전</string>
+    <string name="mode_air_clean">공기청정</string>
+    <string name="mode_dust">황사모드</string>
+    <string name="mode_dehumi">제습</string>
+    <string name="mode_turbo_dehumi">터보운전</string>
+    <string name="no_device_to_control">제어 가능한 기기가 없습니다.</string>
+
+    <string name="fragment_home_first_text1">환영합니다!\n에어모니터를 추가해보세요.\n실내 공기질 정보를 실시간으로\n확인하실 수 있습니다.</string>
+    <string name="fragment_home_first_text2">\n에어모니터가 연결되지 않았습니다.\n제품의 연결 상태를 확인해 주세요.\n</string>
+    <string name="fragment_home_first_text3">\n실내 공기질 정보를 불러오는 중입니다.\n새로고침 버튼을 눌러주세요.\n</string>
+    <string name="fragment_home_first_text4">정보를 업데이트 하면 실내 공기질 정보를\n실시간으로 확인하실 수 있습니다.</string>
+    <string name="fragment_home_first_text5">에어모니터 전원이 \n꺼져있는 상태입니다.(확인해주세요)</string>
+    <string name="fragment_home_first_text6">실내정보를 조회하시려면\n센서박스 전원을 켜주세요.</string>
+    <string name="fragment_home_first_text7">환영합니다!\n에어모니터 페어링 연결을 설정해주세요.\n실내 공기질 정보를 실시간으로\n확인하실 수 있습니다.</string>
+    <string name="fragment_home_first_dialog_text1">실외 정보는 실시간 관측된 자료이며, 현지사정이나 수신상태에 의해 차이가 발생할 수 있습니다.</string>
+    <string name="fragment_home_first_dialog_text2">한국환경공단/기상청</string>
+    <string name="fragment_home_first_dialog_text3">PM2.5/PM10 제공_환경부/한국환경공단</string>
+
+    <!--<string name="fragment_lifereport_text1">현재 기준 24시간 종합 공기질 리포트입니다.</string>
+    <string name="fragment_lifereport_text2">오늘 기준 7일간 종합 공기질 리포트입니다.</string>
+    <string name="fragment_lifereport_text3">이번 달 기준 6개월간 종합 공기질 리포트입니다.</string>-->
+    <string name="fragment_lifereport_text1">현재 기준 24시간 실내 공기질 리포트입니다.</string>
+    <string name="fragment_lifereport_text2">오늘 기준 7일간 실내 공기질 리포트입니다.</string>
+    <string name="fragment_lifereport_text3">이번 달 기준 6개월간 실내 공기질 리포트입니다.</string>
+
+    <string name="fragment_home_third_detail1_unknown">실외 정보가 없습니다.</string>
+    <string name="fragment_home_third_detail1_verybad">실외활동을 자제해 주세요.</string>
+    <string name="fragment_home_third_detail1_bad">실외활동을 가급적 자제해 주세요</string>
+    <string name="fragment_home_third_detail1_normal">실외활동에 지장이 없습니다.</string>
+    <string name="fragment_home_third_detail1_good">실외활동하기에 좋습니다.</string>
+    <string name="fragment_home_third_detail2_unknown">실외 날씨 정보를 업데이트 해주세요.</string>
+    <string name="fragment_home_third_detail2_verybad">환기를 자제해 주세요.</string>
+    <string name="fragment_home_third_detail2_bad">환기를 가급적 자제해 주세요.</string>
+    <string name="fragment_home_third_detail2_normal">창문을 열고 환기하시는데 지장이 없습니다.</string>
+    <string name="fragment_home_third_detail2_good">창문을 열고 환기하시기 좋습니다.</string>
+
+    <string name="fragment_home_second_detail1_unknown">실내 정보가 없습니다.</string>
+    <string name="fragment_home_second_detail1_verybad_co2">실내 산소가 매우 부족합니다.</string>
+    <string name="fragment_home_second_detail1_verybad_tvoc_dust">실내 공기가 매우 오염되었습니다.</string>
+    <string name="fragment_home_second_detail1_bad_co2">실내 산소가 부족합니다.</string>
+    <string name="fragment_home_second_detail1_bad_tvoc_dust">실내 공기가 오염되었습니다.</string>
+    <string name="fragment_home_second_detail1_normal">실내 공기질이 보통 상태입니다.</string>
+    <string name="fragment_home_second_detail1_good">실내 공기질이 잘 관리되고 있습니다.</string>
+    <string name="fragment_home_second_detail2_unknown">실내 정보를 업데이트 해주세요.</string>
+    <string name="fragment_home_second_detail2_verybad_co2">일반환기로 실내에 산소를 공급해 주세요</string>
+    <string name="fragment_home_second_detail2_verybad_tvoc_dust">청정모드로 실내 공기를 깨끗하게 해 주세요.</string>
+    <string name="fragment_home_second_detail2_bad_co2">일반환기로 실내에 산소를 공급해 주세요.</string>
+    <string name="fragment_home_second_detail2_bad_tvoc_dust">청정모드로 실내 공기를 깨끗하게 해 주세요.</string>
+    <string name="fragment_home_second_detail2_normal">공기질이 나빠지지 않도록 지속적으로 관리해 주세요.</string>
+    <string name="fragment_home_second_detail2_good">공기질이 나빠지지 않도록 지속적으로 관리해 주세요</string>
+
+    <string name="activity_time_set_popup_text1">설정된 시간에 제품이 정지합니다.</string>
+    <string name="activity_time_set_popup_text2">설정된 시간에 제품이 운전합니다.</string>
+
+    <string name="activity_help_connect_device_text1">추가하실 기기와 핸드폰의 Wi-Fi를 연결해 주세요.</string>
+    <string name="activity_help_connect_device_roomcon_text">1.제품 와이파이 연결방법</string>
+    <string name="activity_help_connect_device_roomcon_number1">①</string>
+    <string name="activity_help_connect_device_roomcon_number2">②</string>
+    <string name="activity_help_connect_device_roomcon_number3">③</string>
+    <string name="activity_help_connect_device_roomcon_text1">제품의 설정화면에서 [기타] 버튼을 눌러주세요.</string>
+    <string name="activity_help_connect_device_roomcon_text2">WIFI[설정] 버튼을 눌러주세요.</string>
+    <string name="activity_help_connect_device_roomcon_text3">나비엔 에어원 앱 [설정] 버튼을 눌러주세요.</string>
+    <string name="activity_help_connect_device_phone_roomcon_text">2.스마트폰의 설정에서 Wi-Fi를 연결해 주세요.</string>
+    <string name="activity_help_connect_device_phone_roomcon_text1">스마트폰 Wi-Fi 설정에서 제품 화면에 표시되는 "NTR-R~" 네트워크를 선택해주세요.</string>
+    <string name="activity_help_connect_device_phone_roomcon_text2">와이파이 연결이 완료되었습니다.</string>
+    <string name="activity_help_connect_device_sensorbox_text">1.에어모니터 와이파이 연결방법</string>
+    <string name="activity_help_connect_device_sensorbox_text1">에어모니터 옆면의 [Wi-Fi설정] 버튼을 3초간 눌러 주세요.</string>
+    <string name="activity_help_connect_device_sensorbox_text2">에어모니터 디스플레이의 Wi-Fi표시등 깜빡임을 확인하세요.</string>
+    <string name="activity_help_connect_device_phone_sensorbox_text">2.스마트폰의 설정에서 Wi-Fi를 연결해 주세요.</string>
+    <string name="activity_help_connect_device_phone_sensorbox_text1">스마트폰 Wi-Fi 설정에서 제품 정면에 표시되는 "NTS-KD-XX"을 선택해주세요.</string>
+    <string name="activity_help_connect_device_phone_sensorbox_text2">와이파이 연결이 완료되었습니다.</string>
+    <string name="activity_help_connect_device_text2">AP모드로 켜져 있다면 아래 [다음]버튼을 눌러 주세요.\n단, 제품에서 공유기를 직접 설정할 경우,\n[건너뛰기]를 눌러주세요.</string>
+    <string name="activity_help_connect_device_text2_change_ap">AP모드로 켜져 있다면 아래 [다음]버튼을 눌러 주세요.</string>
+    <string name="activity_help_connect_device_text2_mark">[다음]</string>
+
+    <string name="activity_smart_alarm_text1">스마트알림 서비스는 실내외 공기상태를 분석하여\n쾌적한 생활을 하실 수 있도록 도와드립니다.</string>
+
+    <string name="activity_find_ap_text1">기기와 연결할 공유기를 선택해 주세요.</string>
+
+    <string name="activity_withdraw_text1">회원님은 경동나비엔 앱의 관리자입니다.\n관리자가 회원 탈퇴 시,\n등록된 사용자의 계정도 함께 삭제되어\n사용자도 자동 탈퇴됩니다.\n\n관리자 탈퇴를 계속 진행 하시겠습니까?</string>
+    <string name="activity_withdraw_text1_mark">관리자가 회원 탈퇴 시,\n등록된 사용자의 계정도 함께 삭제되어\n사용자도 자동 탈퇴됩니다.</string>
+    <string name="activity_withdraw_text2">다른 사용자를 관리자로 지정한 후 탈퇴하시면,\n나머지 사용자는 계정이 삭제되지 않고\n앱에서 기기를 계속 사용하실 수 있습니다.</string>
+
+    <string name="activity_register_user_text1">회원가입이 완료되었습니다.</string>
+    <string name="activity_register_user_text2">가입시 등록한 이메일 인증 후\n로그인 하여 앱을 사용하세요.</string>
+    <string name="activity_register_user_text3">4자이상 영문+숫자 조합, 공백불가</string>
+    <string name="activity_register_user_text4">회원님의 아이디는\n%s입니다.</string>
+    <string name="activity_register_user_text5">회원님의 아이디를\n알수가 없습니다.</string>
+    <!--<string name="activity_register_user_text6">위 메일 계정으로 회원님의 임시 비밀번호가\n발송되었습니다. 메일 확인후 로그인 해주세요.</string>-->
+    <string name="activity_register_user_text6">회원님의 비밀번호가 변경되었습니다.</string>
+    <string name="activity_register_user_text7">회원님의 아이디를\n알수가 없습니다.\n비밀번호 찾기를 다시 시도해주세요.</string>
+
+    <string name="activity_register_user_text8">회원가입이 완료되었습니다.</string>
+    <string name="activity_register_user_text9">가입 시 등록한 이메일 인증 후\n로그인하여 앱을 사용하세요</string>
+    <string name="activity_register_user_text10">회원수정이 완료되었습니다.</string>
+    <string name="activity_register_user_text11">잠시후 홈 화면으로 이동합니다.</string>
+    <string name="activity_register_user_text12">회원님의 아이디를\n알수가 없습니다.\n비밀번호 찾기를 다시 시도해주세요.</string>
+
+    <string name="activity_manage_user_text1">관리자 권한을 이관할 사용자를 지정해 주세요.</string>
+
+    <string name="activity_add_user_text0">추가할 사용자에게 전달할\n인증코드 6자리를 생성해 주세요.</string>
+    <string name="activity_add_user_text1">인증코드가 발급되었습니다.\n추가할 사용자에게 아래 6자리 코드를 전달하세요.</string>
+    <string name="activity_add_user_text2">* 보안을 위해 인증코드는 발급된 시점부터 10분간 유효합니다.\n인증코드를 전달받은 사용자가 본인의 핸드폰에서 앱을 실행 후 전달 받은 6자리 코드를 아이디/패스워드에 입력하여 로그인한 후 회원정보를 등록하면 자동으로 사용자가 추가됩니다.</string>
+
+    <string name="activity_register_device_text1">회원정보 등록 시 입력하신 회원님의\n이름과 제품 아이디를 입력해주세요.</string>
+    <!--<string name="activity_register_device_text2">회원정보 등록 시 입력하신 아이디,\n이메일 주소로 임시 비밀번호를 보내드립니다.</string>-->
+    <string name="activity_register_device_text2">회원정보 등록 시 입력하신 정보를 입력 후\n변경할 비밀번호를 입력하세요.</string>
+    <string name="activity_register_device_text3">에어 룸콘트롤러와 연결할 공유기를 선택해 주세요.</string>
+    <string name="activity_register_device_text4">제품 아이디 가져오기</string>
+
+    <!--<string name="activity_more_help_list1_title">실내통합공기질</string>
+    <string name="activity_more_help_list1_description">실내 공기오염도 측청치의 결과를 쉽게 알 수 있도록 통합적으로 표현 됩니다.</string>
+    <string name="activity_more_help_list2_title">실외통합공기질</string>
+    <string name="activity_more_help_list2_description">실외 공기오염도 측청치의 결과를 쉽게 알 수 있도록 통합적으로 표현 됩니다.</string>
+    <string name="activity_more_help_list3_title">미세먼지</string>
+    <string name="activity_more_help_list3_description">지름 10㎛ 이하의 먼지를 말해요. 노출시에는 기도의 자극으로 인한 기침과 호흡곤란이 발생하며, 폐기능이 감소하여 천식이 악화되고 만성 기관지염과 부정맥을 일으켜요.</string>
+    <string name="activity_more_help_list4_title">초미세먼지</string>
+    <string name="activity_more_help_list4_description">지름 2.5㎛ 이하의 미세먼지를 말해요. 호흡기 깊숙이 침투해 폐 조직에 붙어 호흡기 질환을 일으키고 혈관으로 흡수돼 심잘질환을 일으켜요.</string>
+    <string name="activity_more_help_list5_title">TVOC</string>
+    <string name="activity_more_help_list5_description">휘발성유기화합물은 대기중에 휘발돼 악취나 오존을 발생시키는 탄화수소화합물을 일컫는 말로, 피부접촉 및 호흡기 흡입을 통해 신경계에 장애를 일으키는 발암 물질이에요.</string>
+    <string name="activity_more_help_list6_title">CO2</string>
+    <string name="activity_more_help_list6_description">이산화탄소는 무색, 무취이고 공기보다 무거운 기체로, 1000ppm 농도부터 불쾌감을 느끼게 되고 2000ppm 농도에는 졸림 및 컨디션 변화가 생기게 돼요. 3000ppm 이상일 경우 두통 및 현기증이 일어나요.</string>-->
+
+    <string name="activity_more_help_list1_title">PM10 (미세먼지)</string>
+    <string name="activity_more_help_list2_title">PM2.5 (초미세먼지)</string>
+    <string name="activity_more_help_list3_title">CO2 (이산화탄소)</string>
+    <string name="activity_more_help_list4_title">TVOC (휘발성 유기화합물)</string>
+    <string name="activity_more_help_list5_title">PM1.0 (극초미세먼지)</string>
+    <string name="activity_more_help_list6_title">통합공기질</string>
+
+    <string name="activity_more_help_list1_description"></string>
+    <string name="activity_more_help_list2_description">실외 공기오염도 측청치의 결과를 쉽게 알 수 있도록 통합적으로 표현 됩니다.</string>
+    <string name="activity_more_help_list3_description">지름 10㎛ 이하의 먼지를 말해요. 노출시에는 기도의 자극으로 인한 기침과 호흡곤란이 발생하며, 폐기능이 감소하여 천식이 악화되고 만성 기관지염과 부정맥을 일으켜요.</string>
+    <string name="activity_more_help_list4_description">지름 2.5㎛ 이하의 미세먼지를 말해요. 호흡기 깊숙이 침투해 폐 조직에 붙어 호흡기 질환을 일으키고 혈관으로 흡수돼 심잘질환을 일으켜요.</string>
+    <string name="activity_add_user_share_text">
+        [경동나비엔] %s로부터\n
+        어플리케이션 사용자 추가문자입니다.\n\n
+        인증코드는[%s]입니다.\n\n
+        경동나비엔 앱을 실행 후 전달받은 인증코드를 아이디/페스워드에 동일하게 입력하여 로그인해 주세요.\n
+        로그인 후 회원정보를 등록하시면 사용자 추가가 완료됩니다. 보안을 위해 인증코드는 발급된 시점부터 10분간 유효합니다.\n
+        경동 나비엔 앱에 접속하시려면 아래 링크를 눌러주세요.\n
+    </string>
+
+    <string name="loading_title_creating">생성 중...</string>
+    <string name="loading_destription_creating_authcode">인증코드 생성 중입니다...</string>
+    <string name="loading_title_changing">변경 중...</string>
+    <string name="loading_destription_changing_userinfo">회원정보를 변경 중입니다...</string>
+    <string name="loading_destription_changing_device_name">기기 이름 변경 중입니다...</string>
+    <string name="loading_destription_changing_device_info">기기 정보를 변경 중입니다...</string>
+    <string name="loading_destription_control_device_info">제어기기 정보를 요청 중입니다...</string>
+    <string name="loading_destription_changing_password">비밀번호를 변경 중입니다...</string>
+    <string name="loading_title_can_not_created_authcode">생성 중...</string>
+    <string name="loading_title_scanning">스캔 중...</string>
+    <string name="loading_destription_scanning">스캔 중입니다.\n조금 후 스캔이 종료됩니다.</string>
+    <string name="loading_title_application">적용 중...</string>
+    <string name="loading_destription_application_network">네트워크를 적용 중입니다.</string>
+    <string name="loading_title_doing_login">로그인 중...</string>
+    <string name="loading_destription_doing_login">로그인 중입니다...</string>
+    <string name="loading_title_searching">검색 중...</string>
+    <string name="loading_destription_searching_id">아이디를 검색중입니다.</string>
+    <string name="loading_destription_getting_userlist">사용자 리스트를 가져오는 중입니다...</string>
+    <string name="loading_destription_getting_devicelist">디바이스 리스트를 가져오는 중입니다...</string>
+    <string name="loading_destription_getting_deviceInfo">디바이스 정보를 가져오는 중입니다...</string>
+    <string name="loading_destription_getting_notice">공지사항 리스트를 가져오는 중입니다...</string>
+    <string name="result_no_data_notification">공지사항이 없습니다</string>
+    <string name="loading_title_deleting">삭제 중...</string>
+    <string name="loading_destription_deleting_userinfo">회원정보를 삭제 중입니다.</string>
+    <string name="loading_destription_deleting_device">디바이스를 삭제 중입니다.</string>
+    <string name="loading_title_doing_register">등록 중...</string>
+    <string name="loading_title_doing_register_something">등록 중입니다.</string>
+    <string name="loading_title_doing_register_ap_for_device">기기의 AP를 등록 중입니다.</string>
+    <string name="loading_destription_doing_register_device">기기를 등록 중입니다...</string>
+    <string name="loading_title_requesting">요청 중...</string>
+    <string name="loading_title_controlling">제어 중...</string>
+    <string name="loading_title_requesting_auth_mail">인증 메일 재전송을 요청 중입니다.</string>
+    <string name="loading_title_requesting_weather">날씨 및 공기질 정보를 요청 중입니다.</string>
+    <string name="loading_title_requesting_life_report">생활리포트 정보를 요청 중입니다.</string>
+    <string name="loading_title_requesting_smartalram">스마트 알람 정보를 요청 중입니다.</string>
+    <string name="loading_title_requesting_push">푸시 알람 정보를 요청 중입니다.</string>
+    <string name="loading_title_saving_push">푸시 알람 정보를 저장 중입니다.</string>
+    <string name="loading_destription_controlling_device">기기를 제어중입니다.</string>
+
+    <string name="toast_result_changed_device_name">기기이름 변경을 완료하였습니다.</string>
+    <string name="toast_result_changed_device_info">기기정보 변경을 완료하였습니다.</string>
+    <string name="toast_result_can_not_change_device_name">연결 중 오류가 발생했습니다.\n다시 시도해 주세요.</string>
+    <string name="toast_result_can_not_change_device_info">연결 중 오류가 발생했습니다.\n다시 시도해 주세요.</string>
+    <string name="toast_result_no_exsist_device_or_error_servser">연결 중 오류가 발생했습니다.\n다시 시도해 주세요.</string>
+    <string name="toast_result_wrong_lat_lng">정보없음(현재 적용되는 상태로 유지)</string>
+    <!--<string name="toast_result_no_exsist_device">기기 정보가 잘못되었습니다.\n기기 정보를 확인해 주세요.</string>-->
+    <string name="toast_result_no_exsist_device">제품을 연결 할 수 없습니다.\n다시 시도해 주세요.</string>
+    <string name="toast_result_use_all_db">기기등록은 10개까지 가능합니다.</string>
+    <string name="toast_result_error_servser">연결 중 오류가 발생했습니다.\n다시 시도해 주세요.</string>
+    <string name="toast_result_wrong_device_id">연결 중 오류가 발생했습니다.\n다시 시도해 주세요.</string>
+    <string name="toast_result_wrong_flag">연결 중 오류가 발생했습니다.\n다시 시도해 주세요.</string>
+    <string name="toast_result_no_user">사용자 정보 조회에 실패하였습니다.\n사용자 정보 확인 후 다시 시도해 주세요.</string>
+    <string name="toast_result_check_user">회원님의 정보를 찾을 수 업습니다.\n정보를 다시 확인해 주세요</string>
+    <string name="toast_result_error_server">연결 중 오류가 발생했습니다.\n다시 시도해 주세요.</string>
+    <string name="toast_result_no_data2">조회된 정보가 없습니다.</string>
+    <string name="toast_result_error_subuser_parsing">연결 중 오류가 발생했습니다.\n다시 시도해 주세요.</string>
+    <string name="toast_result_error_mainuser_parsing">연결 중 오류가 발생했습니다.\n다시 시도해 주세요.</string>
+    <string name="toast_result_no_main_user">사용자 정보 조회에 실패하였습니다.\n사용자 정보 확인 후 다시 시도해 주세요.</string>
+    <string name="toast_result_no_sub_user">사용자 정보 조회에 실패하였습니다.\n사용자 정보 확인 후 다시 시도해 주세요.</string>
+    <string name="toast_result_same_otpcode_with_main_user">인증코드 생성 시 오류가 발생했습니다\n인증코드를 다시 생성해 주세요.</string>
+    <string name="toast_result_same_otpcode_with_sub_user">인증코드 생성 시 오류가 발생했습니다\n인증코드를 다시 생성해 주세요.</string>
+    <string name="toast_result_error_connection_network">네트워크 연결 오류입니다.</string>
+    <string name="toast_result_error_register_network">네트워크 등록 오류입니다.</string>
+    <string name="toast_result_found_no_address">주소를 찾지 못하였습니다.</string>
+    <string name="toast_result_wrong_id_password">입력하신 정보와 일치하는 회원이 없습니다.</string>
+    <string name="toast_result_wrong_id_password2">비밀번호가 맞지 않습니다. 다시 입력해 주세요.</string>
+    <string name="toast_result_wrong_service1">서비스 점검중입니다. 잠시 후 다시 이용해 주세요.</string>
+    <string name="toast_result_wrong_service2">서비스 점검중입니다. 점검 시간 : </string>
+    <string name="toast_result_retry_login">죄송합니다. 다시 시도해주세요.</string>
+    <string name="toast_result_error_login">로그인에 실패하였습니다.</string>
+    <string name="toast_result_wrong_auth_with_user">인증되지 않은 사용자입니다.</string>
+    <string name="toast_result_do_not_admin">관리자가 아닙니다.</string>
+    <string name="toast_result_can_not_search">연결 중 오류가 발생했습니다\n다시 시도해 주세요.</string>
+    <string name="toast_result_can_not_request">연결 중 오류가 발생하였습니다.\n다시 시도해 주세요.</string>
+    <string name="toast_result_can_not_change">연결에 실패하였습니다.</string>
+    <string name="toast_result_no_data">존재하지 않는 아이디입니다.</string>
+    <string name="toast_result_wrong_sql_or_connecting">연결 중 오류가 발생했습니다.\n다시 시도해 주세요.</string>
+    <string name="toast_result_wrong_sql">연결 중 오류가 발생했습니다.\n다시 시도해 주세요.</string>
+    <string name="toast_result_can_not_deleted">연결 중 오류가 발생했습니다\n다시 시도해 주세요.</string>
+    <string name="toast_result_can_not_register">연결 중 오류가 발생했습니다\n다시 시도해 주세요.</string>
+    <string name="toast_result_can_not_create_auth_code">연결 중 오류가 발생했습니다\n다시 시도해 주세요.</string>
+    <string name="toast_push_ok_after_seleted_ap">AP를 선택 후 확인 버튼을 눌러주세요.</string>
+    <string name="toast_result_input_id">아이디를 입력해 주세요.</string>
+    <string name="toast_result_input_email_id">이메일 형식의 아이디를 입력하세요.</string>
+    <string name="toast_result_input_password">비밀번호를 입력해 주세요.</string>
+    <string name="toast_result_input_password_new2">회원님의 정보를 입력해 주세요.</string>
+    <string name="toast_result_input_password_new">새 비밀번호를 입력해 주세요.</string>
+    <string name="toast_result_input_password_new_confirm">새 비밀번호 확인을 입력해 주세요.</string>
+    <string name="toast_result_input_password_old">현재 비밀번호를 입력해 주세요</string>
+    <string name="toast_result_input_wrong_password">비밀번호는 숫자+영문 조합으로만 입력 가능합니다.</string>
+    <string name="toast_result_input_device_id">제품아이디를 입력해 주세요.</string>
+    <string name="toast_result_check_device_id">제품아이디는 16자리입니다. 확인 후 입력하세요.</string>
+    <string name="toast_result_input_device_name">기기 이름을 입력하세요.</string>
+    <string name="toast_result_input_user_name">이름을 입력해 주세요.</string>
+    <string name="toast_result_input_email">이메일을 입력해 주세요.</string>
+    <string name="toast_result_did_register_user">이미 가입된 사용자입니다.</string>
+    <string name="toast_result_do_not_otp_code">"인증코드가 존재하지 않습니다.\n인증코드를 다시 요청 후 입력해 주세요.</string>
+    <string name="toast_result_expire_otp_code">보안을 위해 인증코드는 발급된\n시점부터 10분간 유효합니다.</string>
+    <string name="toast_result_wrong_otp">인증코드가 존재하지 않습니다.\n인증코드를 다시 요청 후 입력해 주세요.</string>
+    <string name="toast_result_register_mainuser">이미 가입된 사용자입니다.</string>
+    <string name="toast_result_register_subuser">이미 가입된 사용자입니다.</string>
+    <string name="toast_result_use_already_email">이미 가입된 아이디입니다.</string>
+    <string name="toast_result_no_enough_info">연결 중 오류가 발생했습니다.\n다시 시도해 주세요.</string>
+    <string name="toast_result_no_zipcode">ZIP 코드가 존재하지 않습니다.</string>
+    <string name="toast_result_no_location">위치정보가 존재하지 않습니다.</string>
+    <string name="toast_result_no_korea">대한민국을 제외한 다른국가는 서비스 대상이 아닙니다.</string>
+    <string name="toast_result_no_exsist_id_password">회원 정보를 찾을 수 없습니다.\n회원가입 시 입력하신 정보를 다시 확인해 주세요.</string>
+    <string name="toast_result_no_find_device">제품아이디를 찾을 수 없습니다.\n제품아이디를 다시 확인해 주세요.</string>
+
+    <string name="toast_result_no_find_device_or_id">회원님의 정보를 찾을 수 없습니다.\n정보를 다시 확인해 주세요.</string>
+
+    <string name="toast_result_can_not_change_password">연결 중 오류가 발생했습니다.\n다시 시도해 주세요.</string>
+    <string name="toast_result_change_password">저장되었습니다.</string>
+    <string name="toast_result_can_not_change_save">연결에 실패하였습니다.</string>
+    <string name="toast_result_no_tac_model">에어모니터는 TAC에만 등록이 가능합니다.\n기기 정보를 확인 후 다시 시도해 주세요.</string>
+    <string name="toast_result_wrong_data">기기 정보가 잘못되었습니다.\n기기 정보를 확인해 주세요.</string>
+    <string name="toast_result_already_other_pairing_sensorbox">이미 등록된 정보 입니다.\nTAC와 에어모니터의 등록 정보를 확인해주세요.</string>
+    <string name="toast_result_full_db">TAC에는 1대의 에어모니터만 연결이 가능합니다.</string>
+    <string name="toast_result_already_pairing_sensorbox">이미 등록된 정보 입니다.\nTAC와 에어모니터의 등록 정보를 확인해주세요.</string>
+    <string name="toast_result_no_sensorbox">에어모니터는 TAC에만 등록이 가능합니다. 기기 정보를 확인 후 다시 시도해 주세요.</string>
+    <string name="toast_result_no_exist_sensorbox">에어모니터 정보가 잘못되었습니다.\n에어모니터 정보를 확인해주세요.</string>
+    <string name="toast_result_json_parsing_error">JSON 생성 오류</string>
+    <string name="toast_result_updated_infomation">정보가 업데이트 되었습니다.</string>
+    <string name="toast_result_register_privacy_term">앱 이용 약관에 동의해 주세요.</string>
+
+    <string name="toast_resend_auth_email">인증 메일이 재전송 되었습니다.</string>
+    <string name="toast_selected_no_ap">AP를 선택하지 않았습니다.</string>
+    <string name="toast_access_wrong">잘못된 접근 방식입니다.</string>
+    <string name="toast_selected_no_anyone">사용자를 선택하지 않았습니다.</string>
+    <string name="toast_no_user_to_deleted">삭제할 사용자가 리스트에 없습니다.</string>
+    <string name="toast_noexist_control_device">제어할 기기가 선택되지 않았습니다. 제어기기를 선택해주세요.</string>
+
+    <string name="toast_unknown_location">현재 위치를 확인 할 수 없습니다.</string>
+    <string name="toast_get_no_location">잘못된 접근 방식입니다.</string>
+    <string name="toast_service_not_available">서비스를 사용할수 없습니다. 제부팅 후 시도하세요.</string>
+    <string name="toast_no_internet_for_location">인터넷이 되지 않아\n주소를 획득하지 못하였습니다.</string>
+
+    <string name="toast_result_error_invalid_wifi">접속중인 WiFi정보가 올바르지 않습니다. WiFi연결을 다시 확인해주세요.</string>
+
+    <string name="widget_location_sample">강남구 수서동 19시 11분 기준.</string>
+    <string name="widget_updatetime">HH시 mm분 기준.</string>
+    <string name="widget_noti_title_sample">[실내 CO2 경보]</string>
+    <string name="widget_noti_time_sample">2017.09.28 목요일 13:00</string>
+    <string name="widget_noti_time">yyyy.MM.dd HH:mm</string>
+    <string name="widget_noti_destription_sample">실내산소가 부족합니다.\n일반환기로 실내에 산소를 공급해주세요.</string>
+    <string name="widget_refresh">방금 전 새로운 정보를 정보를 가져왔습니다.\n10초 후에 다시 시도해 주십시오.</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_control">ControlActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBibYgzFeGWrs8Xw7jG4K1LRcLojMHtZM8</string>
+    <!-- Do not translate.  Concise terminology for wifi with WEP security -->
+    <string name="wifi_security_short_wep">WEP</string>
+    <!-- Do not translate.  Concise terminology for wifi with WPA security -->
+    <string name="wifi_security_short_wpa">WPA</string>
+    <!-- Do not translate.  Concise terminology for wifi with WPA2 security -->
+    <string name="wifi_security_short_wpa2">WPA2</string>
+    <!-- Do not translate.  Concise terminology for wifi with both WPA/WPA2 security -->
+    <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <!-- Do not translate.  Concise terminology for wifi with unknown PSK type -->
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
+    <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
+    <string name="wifi_security_short_eap">802.1x</string>
+
+    <!-- Used in Wi-Fi settings dialogs when Wi-Fi does not have any security. -->
+    <string name="wifi_security_none">None</string>
+
+    <!-- Do not translate.  Terminology for wifi with WEP security -->
+    <string name="wifi_security_wep">WEP</string>
+    <!-- Do not translate.  Terminology for wifi with WPA security -->
+    <string name="wifi_security_wpa">WPA PSK</string>
+    <!-- Do not translate.  Terminology for wifi with WPA2 security -->
+    <string name="wifi_security_wpa2">WPA2 PSK</string>
+    <!-- Do not translate.  Terminology for wifi with both WPA/WPA2 security, or unknown -->
+    <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <!-- Do not translate.  Terminology for wifi with unknown PSK type -->
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
+    <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
+    <string name="wifi_security_eap">802.1x EAP</string>
+
+    <!-- Button label to connect to a Wi-Fi network -->
+    <string name="wifi_connect">연결하기</string>
+    <!-- Failured notification for connect -->
+    <string name="wifi_failed_connect_message">Failed to connect to network</string>
+    <!-- Button label to delete a Wi-Fi network -->
+    <string name="wifi_forget">지우기</string>
+    <!-- Failured notification for forget -->
+    <string name="wifi_failed_forget_message">Failed to forget network</string>
+    <!-- Button label to save a Wi-Fi network configuration -->
+    <string name="wifi_save">저장하기</string>
+    <!-- Failured notification for save -->
+    <string name="wifi_failed_save_message">Failed to save network</string>
+    <!-- Button label to dismiss the dialog -->
+    <string name="wifi_password_input">비밀번호를 입력하세요.</string>
+    <string name="wifi_password_error">비밀번호가 틀렸습니다.</string>
+    <string name="wifi_cancel">취소</string>
+    <string name="wifi_password">비밀번호</string>
+    <string name="wifi_connecting">연결 중입니다.</string>
+    <string name="wifi_connected">연결되었습니다.</string>
+    <string name="wifi_failed">연결에 실패했습니다</string>
+    <string name="wifi_connected_short">연결됨</string>
+    <string name="wifi_saved">저장됨</string>
+    <string name="title_activity_more_login">MoreLoginActivity</string>
+
+    <string name="title_guide01">앱 소개</string>
+    <string name="title_guide02">실내외 공기질</string>
+    <string name="title_guide03">기기 원격 제어</string>
+    <string name="title_guide04">스마트알림</string>
+    <string name="title_guide05">공기리포트</string>
+    <string name="subtitle_guide01">홈에서 제공되는 실시간 모니터링을 통해\n실내 공기질을 한눈에 보여주고,\n깨끗한 공기질 유지를 위한 기능을 추천해드려요.</string>
+    <string name="subtitle_guide02">온도, 습도뿐만 아니라 초미세먼지, TVOC, CO2등\n실내외 상세 상세 공기질을 보여드려요.</string>
+    <string name="subtitle_guide03">언제 어디서나 제품의 습도, 풍량을 조절하고\n 전원을 켜고 끄거나 예약할 수 있어요.</string>
+    <string name="subtitle_guide04">스마트한 기기 관리는 물론, 우리집 공기질 상태\n알림을 한눈에 제공하고 그에 맞는\n맞춤 가이드를 추천해드려요.</string>
+    <string name="subtitle_guide05">일/주/월별로 제공하는 공기리포트를 통해\n실내외 공기질을 한눈에 비교해드려요.</string>
+
+    <string name="create_auth_code">인증코드 생성하기</string>
+    <string name="retry_create_auth_code">인증코드 다시 생성하기</string>
+
+    <string name="change_control_device_popup_success">제어할 기기가 %s로 설정되었습니다.</string>
+    <string name="not_control_device_popup">제어할 기기가 선택되지 않았습니다.\n제어기기 선택 후 제어가 가능합니다.</string>
+
+    <string name="no_reservation">예약없음</string>
+    <string name="reservation_string">%s %d:%02d</string>
+    <string name="exit_app">앱을 종료 하시겠습니까?</string>
+
+
+
+    <string name="input_register_password_content">비밀번호를 입력해 주세요.</string>
+    <string name="input_find_id_content">제품아이디를 입력해 주세요.</string>
+    <string name="input_find_pw_content">아이디와 제품아이디를 입력해 주세요.</string>
+    <string name="input_find_pw_change_content">변경할 비밀번호를 입력해 주세요.</string>
+
+    <string name="fragment_register_device1_title">에어 룸콘트롤러 Wi-Fi 설정하기</string>
+    <string name="fragment_register_device1_content1">① 제품의 메인화면에서 [설정] 버튼을 눌러주세요.</string>
+    <string name="fragment_register_device1_content2">② 설정화면에서 [기타] 버튼을 눌러주세요.</string>
+    <string name="fragment_register_device1_content3">③ 기타화면에서 [Wi-Fi 설정] 버튼을 눌러주세요.</string>
+    <string name="fragment_register_device1_content4">④ Wi-Fi 설정화면에서 [나비엔 에어원 앱 설정] 버튼을 눌러주세요.</string>
+    <string name="fragment_register_device1_monitor_title">에어모니터 Wi-Fi 설정하기</string>
+    <string name="fragment_register_device1_content5">① 제품 옆면의 [페어링] 버튼을 3초간 눌러주세요.</string>
+    <string name="fragment_register_device1_content6">② Wi-Fi 연결이 준비되면 제품 정면의 페어링 LED 조명이 깜빡입니다.</string>
+    <string name="fragment_register_device2_title">스마트폰 설정하기</string>
+    <string name="fragment_register_device2_content1">① 스마트폰 설정에서 Wi-Fi를 켜주세요.</string>
+    <string name="fragment_register_device2_content2">② 스마트폰 Wi-Fi 설정에서 제품 화면에 표시되는 \"NTR-P~\" 네트워크를 선택해 주세요.</string>
+    <string name="fragment_register_device2_content2_2">② 스마트폰 Wi-Fi 설정에서 제품 화면에 표시되는 \"NRT-20D~\" 네트워크를 선택해 주세요.</string>
+    <string name="fragment_register_device2_content2_1">② 스마트폰 Wi-Fi 설정에서 제품 정면에 표시되는 \"NTS-KD~\" 네트워크를 선택해 주세요.</string>
+    <string name="fragment_register_device2_content3">③ 네트워크 연결 후 다음 버튼을 눌러주세요.</string>
+    <string name="fragment_register_device3_title">공유기 연결하기</string>
+    <string name="fragment_register_device3_subtitle">제품과 연결할 공유기를 선택해 주세요.</string>
+    <string name="fragment_register_device3_refresh_error">공유기 목록을 가져올 수 없습니다.\n다시 시도해주세요.</string>
+    <string name="fragment_register_device3_getid_error">제품 아이디를 조회하는데 실패했습니다.\n다시 시도해주세요.</string>
+    <string name="fragment_register_device3_generatorid_error">제품 아이디를 생성하는데 실패했습니다.\n다시 시도해주세요.</string>
+    <string name="fragment_register_device4_title">위치 설정하기</string>
+    <string name="fragment_register_device4_subtitle">제품의 설치된 위치를 등록해 주세요.</string>
+
+    <string name="toast_result_check_network">인터넷에 연결 중입니다. 잠시만 기다려주세요.</string>
+    <string name="toast_result_no_internet_location">인터넷이 연결되지 않아 주소정보를 가져오지 못했습니다.</string>
+    <string name="toast_result_change_password_complete">비밀번호 변경이 완료되었습니다.</string>
+    <string name="toast_result_change_name_complete">사용자 이름 변경이 완료되었습니다.</string>
+    <string name="toast_result_change_mobile_complete">핸드폰 번호 변경이 완료되었습니다.</string>
+    <string name="toast_result_change_save">저장 되었습니다.</string>
+    <string name="toast_result_change_save_fail">비밀번호가 일치하지 않습니다.</string>
+
+    <string name="toast_result_can_not_change_userinfo">회원정보를 변경하는데 실패하였습니다.</string>
+
+    <string name="detail_monitor_title1">1. 전원 상태 확인하기</string>
+    <string name="detail_monitor_title2">2. 네트워크 상태 확인하기</string>
+    <string name="detail_monitor_title3">3. 에어모니터 재등록하기</string>
+    <string name="detail_monitor_title4">1. 에어모니터 설정하기</string>
+    <string name="detail_monitor_title5">2. 에어 룸콘트롤러 설정하기</string>
+    <string name="detail_monitor_content1">에어모니터의 전원이 켜져 있는지 확인해 주세요.\n전원이 꺼져있다면 에어모니터 기기 옆면의 [전원] 버튼을 눌러 전원을 켜주세요.</string>
+    <string name="detail_monitor_content2">에어모니터 정면의 페어링 LED 조명이 파랑색으로 깜빡인다면, 네트워크 연결 상태 확인이 필요합니다.</string>
+    <string name="detail_monitor_content3">① 공유기가 바뀌었다면 공유기를 재설정 해주세요.</string>
+    <string name="detail_monitor_content4">② 에어모니터와 공유기와의 위치를 통신 가능한 거리로 이동해주세요.</string>
+    <string name="detail_monitor_content5">③ 에어모니터의 전원 케이블을 재연결 해주세요.</string>
+    <string name="detail_monitor_content6">④ 지속적으로 네트워크 연결 문제가 발생 할 경우 공유기를 재설정 해주세요.</string>
+    <string name="detail_monitor_content7">에어모니터 고장 및 교체 시 아래의 [연결하기]버튼을 통해 제품을 재등록해 주세요.</string>
+    <string name="detail_monitor_content8">① 에어 룸콘트롤러가 바뀌었다면 에어 룸콘트롤러 연결을 재설정해 주세요.</string>
+    <string name="detail_monitor_content9">② 에어모니터와 에어 룸콘트롤러와의 위치를 통신 가능한 거리로 이동해 주세요.</string>
+    <string name="detail_monitor_content10">③ 에어모니터의 전원 케이블을 재연결 해주세요.</string>
+    <string name="detail_monitor_content11">④ 지속적으로 네트워크 연결 문제가 발생 할 경우 에어 룸콘트롤러를 재설정해 주세요.</string>
+    <string name="detail_monitor_content12">에어모니터 고장 및 교체 시 제품을 재등록해 주세요.</string>
+
+    <string name="detail_monitor_content13">① 제품 옆면의 [페어링] 버튼을 3초간 눌러주세요.</string>
+    <string name="detail_monitor_content14">② Wi-Fi 연결이 준비되면 제품 정면의 페어링 LED 조명이 깜빡입니다.</string>
+    <string name="detail_monitor_content15">① 제품의 메인화면에서 [설정] 버튼을 눌러주세요.</string>
+    <string name="detail_monitor_content16">② 설정화면에서 [기타] 버튼을 눌러주세요.</string>
+    <string name="detail_monitor_content17">③ 기타화면에서 [Wi-Fi 설정] 버튼을 눌러주세요.</string>
+    <string name="detail_monitor_content18">④ Wi-Fi 설정화면에서 [에어모니터 설정] 버튼을 눌러 주세요.</string>
+    <string name="detail_monitor_content19">⑤ 제품 화면에 표시되는 \"NTS-KD~\" 네트워크를 선택해 주세요. </string>
+    <string name="detail_monitor_content20">⑥ 에어모니터 연결이 완료되었습니다. </string>
+    <string name="detail_monitor_content21">① 제품 상단의 [페어링] 버튼을 3초간 눌러주세요.</string>
+
+    <string name="detail_room_con_title1">1. 전원 상태 확인하기</string>
+    <string name="detail_room_con_title2">2. 네트워크 상태 확인하기</string>
+    <string name="detail_room_con_title3">3. 시스템 오류가 발생 했을 경우</string>
+    <string name="detail_room_con_title4">4. 에어 룸콘트롤러 재등록하기</string>
+    <string name="detail_room_con_content1">① 에어 룸콘트롤러 화면이 켜지지 않을 경우 제품의 전원을 확인해 주세요.</string>
+    <string name="detail_room_con_content2">② 에어 룸콘트롤러 하단 중앙에 있는 [RESET]버튼을 눌러주세요.</string>
+    <string name="detail_room_con_content3">에어 룸콘트롤러 화면 우측 상단에 Wi-Fi 아이콘이 없다면, 네트워크 연결 상태 확인이 필요합니다.</string>
+    <string name="detail_room_con_content4">① 공유기가 바뀌었다면 공유기를 재설정 해주세요.</string>
+    <string name="detail_room_con_content5">② 에어 룸콘트롤러와 공유기와의 위치를 통신 가능한 거리로 이동해 주세요.</string>
+    <string name="detail_room_con_content6">③ 에어 룸콘트롤러 하단 중앙에 있는 [RESET]버튼을 눌러주세요.</string>
+    <string name="detail_room_con_content7">④ 지속적으로 네트워크 연결 문제가 발생 할 경우 공유기를 재설정 해주세요.</string>
+    <string name="detail_room_con_content8">① 에어 룸콘트롤러 정면의 LED 조명이 빨간색으로 깜빡인다면 시스템 오류가 발생한 것 입니다.</string>
+    <string name="detail_room_con_content9">② 에어 룸콘트롤러 화면 상단에 표시되는 에러 코드 확인 후 고객센터에 문의해 주세요.</string>
+    <string name="detail_room_con_content10">에어 룸콘트롤러 고장 및 교체 시 아래의 [연결하기]버튼을 통해 제품을 재등록 해주세요.</string>
+
+    <string name="error_register_device_complete">아직 제품 등록이 끝나지 않았습니다.\n처음 제품 등록 화면으로 돌아가시겠습니까?</string>
+    <string name="error_connect_room_con">에어 룸콘트롤러가 연결되지 않았습니다.\n연결 상태를 확인해주세요.</string>
+    <string name="register_result_complete1">환영합니다!\n회원가입과 제품 등록이 완료되었습니다.</string>
+    <string name="register_result_complete2">회원님의 아이디는\n%s 입니다.</string>
+    <string name="register_result_complete3">비밀번호가 변경되었습니다.</string>
+    <string name="register_air_monitor_dialog">등록된 에어모니터가 없습니다.\n에어모니터를 등록해 주세요.</string>
+    <string name="register_air_monitor_dialog2">연결된 에어모니터가 없습니다.\n에어모니터의 상태를 확인해 주세요.</string>
+    <string name="register_room_con_dialog">등록된 에어 룸콘트롤러가 없습니다.\n에어 룸콘트롤러를 등록해 주세요.</string>
+
+    <string name="power">전원</string>
+    <string name="name">이름</string>
+    <string name="name_change">이름 변경</string>
+    <string name="name_user">사용자 이름</string>
+    <string name="change_user_name">이름 변경</string>
+    <string name="change_phone">핸드폰 번호 변경</string>
+    <string name="detail_view">상세보기</string>
+    <string name="btn_bring_device_id">가져오기</string>
+    <string name="device_id">제품아이디</string>
+    <string name="input_password">비밀번호 입력</string>
+    <string name="label_ssid">연결할 네트워크 : \"%s\"</string>
+    <string name="device_location">제품 위치 설정</string>
+    <string name="device_network">제품 네트워크</string>
+    <string name="device_push">PUSH 알림 설정</string>
+    <string name="device_led">LED 밝기</string>
+    <string name="device_air_monitor">에어모니터</string>
+    <string name="device_air_roomcon">에어 룸콘트롤러</string>
+    <string name="registration">등록하기</string>
+    <string name="none_connect">연결안됨</string>
+    <string name="push_smart_alarm">스마트 알림</string>
+    <string name="push_filter_alarm">필터 알림</string>
+    <string name="filter_change">필터 교체</string>
+    <string name="filter_time_initialize">필터 사용 시간이 초기화 되었습니다.</string>
+
+    <string name="device_add">추가하기</string>
+    <string name="wifi_reset">공유기 재설정</string>
+    <string name="connect_cs">고객센터 연결하기</string>
+
+    <string name="current_day">오늘</string>
+    <string name="current_week">이번주</string>
+    <string name="current_month">이번달</string>
+
+    <string name="graph_total_unit">㎍/㎥</string>
+    <string name="graph_total_axis1">100</string>
+    <string name="graph_total_axis2">80</string>
+    <string name="graph_total_axis3">60</string>
+    <string name="graph_total_axis4">40</string>
+
+    <string name="graph_pm25_unit">㎍/㎥</string>
+    <string name="graph_pm25_axis1">150</string>
+    <string name="graph_pm25_axis2">75</string>
+    <string name="graph_pm25_axis3">35</string>
+    <string name="graph_pm25_axis4">15</string>
+
+    <string name="graph_pm10_unit">㎍/㎥</string>
+    <string name="graph_pm10_axis1">300</string>
+    <string name="graph_pm10_axis2">150</string>
+    <string name="graph_pm10_axis3">80</string>
+    <string name="graph_pm10_axis4">30</string>
+
+    <string name="graph_co2_unit">ppm</string>
+    <string name="graph_co2_axis1">3000</string>
+    <string name="graph_co2_axis2">1500</string>
+    <string name="graph_co2_axis3">1000</string>
+    <string name="graph_co2_axis4">700</string>
+
+    <string name="graph_tvoc_unit">ppb</string>
+    <string name="graph_tvoc_axis1">25000</string>
+    <string name="graph_tvoc_axis2">8000</string>
+    <string name="graph_tvoc_axis3">3000</string>
+    <string name="graph_tvoc_axis4">500</string>
+
+    <string name="graph_temp_unit">℃</string>
+    <string name="graph_temp_axis1">40</string>
+    <string name="graph_temp_axis2">20</string>
+    <string name="graph_temp_axis3">0</string>
+
+    <string name="graph_humi_unit">%</string>
+    <string name="graph_humi_axis1">100</string>
+    <string name="graph_humi_axis2">80</string>
+    <string name="graph_humi_axis3">60</string>
+    <string name="graph_humi_axis4">40</string>
+    <string name="graph_humi_axis5">20</string>
+
+
+    <string name="app_update_textview1">새로운 콘텐츠 업데이트가 필요합니다.</string>
+    <string name="app_update_textview2">업데이트 버튼을 눌러주세요.</string>
+    <string name="app_update_textview3"><u>다음에 하기</u></string>
+
+    <string name="duplicate_user_error"><u>이미 가입된 아이디 입니다</u></string>
+
+    <string name="kakao_map_key">7a936a513abe650e07c9c627c6c8a685</string>  <!-- Real -->
+    <!--<string name="kakao_map_key">9db7d6dcfc9ca4c7d395dbe75fd90e91</string>-->  <!-- Test-->
+
+
+    <string name="APPasswordActivity_str_1">※ 공유기 SSID 및 비밀번호에 일부 특수문자 ( ) , : " | ＼ 가 있으면 연결되지 않을 수 있습니다.</string>
+
+    <string name="roomcon_connect_check">룸콘트롤러의 서버 연결이 완료된 후 다음 버튼을 눌러주세요.</string>
+    <string name="roomcon_connect_check2">룸콘트롤러의 서버 연결이 완료된 후 확인 버튼을 눌러주세요.</string>
+
+
+    <string name="activity_device_detail_str_1">에어모니터 확인하기</string>
+    <string name="activity_device_detail_str_2">에어모니터의 전원이 켜져 있는지 확인해 주세요.\n전원이 꺼져있다면 제품 상단의 [전원] 버튼을 2초간 눌러 전원을 켜주세요.</string>
+    <string name="activity_device_detail_str_3">에어모니터 상단의 LED 조명이 주황색으로 깜빡인다면, 연결 상태 확인이 필요합니다.</string>
+
+    <string name="copyright">Copyrightⓒ Kyung Dong Navien. All rights reserved.</string>
+
+    <!-- ikHwang 2020-01-14 등록된 에어 룸콘트롤러 확인 불가 -->
+    <string name="device_not_exist">등록된 에어 룸콘트롤러가 없습니다.\n에어 룸콘트롤러를 등록해주세요.</string>
+
+    <string name="br_permission">airone.permission.WIDGET_UPDATE</string>
+
+    <!-- ikHwang 2019-06-04 공통 문구 (네트워크 에러, 기타) -->
+    <string name="Common_str_1">연결 중 오류가 발생하였습니다.\n다시 시도해 주세요.</string>
+
+    <!-- ikHwang 2019-06-04 회원가입 화면 (이름, 전화번호 입력) RegisterInfoActivity.java -->
+    <string name="RegisterInfoActivity_str_1">회원님의 정보를 입력해 주세요.</string>
+    <string name="RegisterInfoActivity_str_2">핸드폰 번호를 확인해 주세요.</string>
+    <string name="RegisterInfoActivity_str_3">앱 이용 약관에 동의해 주세요.</string>
+    <string name="RegisterInfoActivity_str_4">개인정보 수집 및 이용에 동의해 주세요.</string>
+    <string name="RegisterInfoActivity_str_5">만14세 이상에 동의해 주세요.</string>
+
+    <!-- ikHwang 2020-12-08 약관 재동의 ResetAgreementActivity.java -->
+    <string name="ResetAgreementActivity_str_1">약관 동의</string>
+    <string name="ResetAgreementActivity_str_2">이용약관 또는 개인정보 수집 및 이용 동의가 개정되었습니다.\n약관을 재동의해주세요.</string>
+    <string name="ResetAgreementActivity_str_3">약관 재동의에 실패했습니다.\n다시 시도해주세요.</string>
+
+    <!-- ikHwang 2019-06-04 회원가입 화면 (이름, 전화번호 입력) activity_register_info.xml -->
+    <string name="activity_register_info_str_1">회원가입</string>
+    <string name="activity_register_info_str_2">이름과 핸드폰 번호를 입력해 주세요.</string>
+    <string name="activity_register_info_str_3">이름</string>
+    <string name="activity_register_info_str_4">핸드폰 번호</string>
+    <string name="activity_register_info_str_5">형식에 맞지 않는 번호입니다.</string>
+    <string name="activity_register_info_str_6"><u>(필수) 서비스 이용약관</u></string>
+    <string name="activity_register_info_str_7">다음</string>
+    <string name="activity_register_info_str_8"><u>(필수) 개인정보 수집 및 이용 동의</u></string>
+    <string name="activity_register_info_str_9">전체 동의</string>
+    <string name="activity_register_info_str_10"><u>만14세 이상입니다.</u></string>
+    <string name="activity_register_info_str_11">(만 14세 미만의 아동회원은 가입할 수 없습니다.)</string>
+
+    <!-- ikHwang 2019-06-04 회원가입 화면 (아이디, 비밀번호 입력) RegisterMemberActivity.java -->
+    <string name="RegisterMemberActivity_str_1">아이디 중복 상태를 확인을 해주세요.</string>
+    <string name="RegisterMemberActivity_str_2"><u>이미 가입된 아이디 입니다</u></string>
+    <string name="RegisterMemberActivity_str_3">회원님의 정보를 입력해 주세요.</string>
+    <string name="RegisterMemberActivity_str_4">형식에 맞는 비밀번호를 입력해 주세요.</string>
+    <string name="RegisterMemberActivity_str_5">비밀번호가 일치하지 않습니다.</string>
+    <string name="RegisterMemberActivity_str_6">사용 가능한 아이디 입니다.</string>
+
+    <!-- ikHwang 2019-06-04 회원가입 화면 (아이디, 비밀번호 입력) activity_register_member.xml -->
+    <string name="activity_register_member_str_1">회원가입</string>
+    <string name="activity_register_member_str_2">아이디와 비밀번호를 입력해 주세요.</string>
+    <string name="activity_register_member_str_3">아이디</string>
+    <string name="activity_register_member_str_4">비밀번호</string>
+    <string name="activity_register_member_str_5">비밀번호 확인</string>
+    <string name="activity_register_member_str_6">10자리 이상 영문+숫자를 사용하세요.</string>
+    <string name="activity_register_member_str_7">비밀번호가 일치하지 않습니다.</string>
+    <string name="activity_register_member_str_8">중복체크</string>
+
+    <!-- ikHwang 2019-06-05 회원가입 제품 선택 화면 SelectJoinDeviceActivity.java -->
+    <string name="SelectJoinDeviceActivity_str_1">기능 사용을 위한 권한 동의가 필요합니다.</string>
+
+    <string name="login_activity_msg_1">아이디 또는 비밀번호가 맞지 않습니다. 로그인 가능한 횟수는 %s번 남았습니다.</string>
+    <string name="login_activity_msg_2">아이디 또는 비밀번호를 5회 이상 잘못 입력하셨습니다. 안전을 위해 비밀번호와 자동입력 방지문자를 입력해주세요.</string>
+    <string name="login_activity_msg_3">알림</string>
+    <string name="login_activity_msg_4">인증에 실패하였습니다.\n다시 시도해주세요.(%d)</string>
+    <string name="login_activity_msg_5">자동입력 방지 인증이 완료되었습니다.\n다시 로그인해주세요.</string>
+    <string name="login_activity_msg_6">이용약관 또는 개인정보 수집 및 이용 동의가 개정되었습니다.\n재동의가 필요해 해당 화면으로 이동합니다.</string>
+
+
+    <!-- ikHwang 2019-06-04 회원가입 제품 선택 화면 activity_select_join_device.xml -->
+    <string name="activity_select_join_device_str_1">제품 선택</string>
+    <string name="activity_select_join_device_str_2">에어 룸콘트롤러 선택하기</string>
+    <string name="activity_select_join_device_str_3">에어 룸콘트롤러 정면 왼쪽 하단에 제품명을 확인해 주세요.</string>
+    <string name="activity_select_join_device_str_4">NTR-10PW</string>
+    <string name="activity_select_join_device_str_5">NRT-20D</string>
+    <string name="activity_select_join_device_str_6">NRT-20L</string>
+    <string name="activity_select_join_device_str_7">NRT-21D</string>
+    <string name="activity_select_join_device_str_8">NRT-20DS</string>
+
+    <!-- ikHwang 2019-06-05 프리즘 에어 룸콘트롤러 연동 처리 화면 액티비티 RegisterPrismDeviceActivity.java -->
+    <string name="RegisterPrismDeviceActivity_str_1">블루투스 기능을 사용할 수 없는 스마트폰 입니다.</string>
+    <string name="RegisterPrismDeviceActivity_str_2">나비엔 에어원 앱에서 블루투스 기능을 켤 수 있도록 허용하시겠습니까?</string>
+    <string name="RegisterPrismDeviceActivity_str_3">아직 제품 등록이 끝나지 않았습니다.\n처음 제품 등록 화면으로 돌아가시겠습니까?</string>
+    <string name="RegisterPrismDeviceActivity_str_4">에어 룸콘트롤러를 찾을 수 없습니다.\n다시 시도해주세요.</string>
+    <string name="RegisterPrismDeviceActivity_str_5">제품 연결에 실패했습니다.\n다시 시도해주세요.</string>
+    <string name="RegisterPrismDeviceActivity_str_6">연결 중 오류가 발생하였습니다.\n다시 시도해 주세요.</string>
+    <string name="RegisterPrismDeviceActivity_str_7">공유기에 연결할 수 없습니다.\n에어 룸콘트롤러에서 "재시도" 버튼 선택 후\n공유기의 비밀번호를 재입력해 주세요.</string>
+    <string name="RegisterPrismDeviceActivity_str_8">공유기 목록을 조회할 수 없습니다.\n다시 시도해 주세요.</string>
+    <string name="RegisterPrismDeviceActivity_str_9">제품 연결이 해제되었습니다.\n다시 시도해주세요.</string>
+    <string name="RegisterPrismDeviceActivity_str_10">공유기에 연결할 수 없습니다.\n공유기의 비밀번호를 재입력해 주세요.</string>
+    <string name="RegisterPrismDeviceActivity_str_11">허용</string>
+    <string name="RegisterPrismDeviceActivity_str_12">거절</string>
+
+    <!--  -->
+    <string name="activity_register_prism_device1_str_1">제품 아이디</string>
+
+    <!-- ikHwang 2019-06-05 프리즘 에어 룸콘트롤러 연결 화면 fragment_register_prism_device1.xml -->
+    <string name="fragment_register_prism_device1_str_1">에어 룸콘트롤러 연결하기</string>
+    <string name="fragment_register_prism_device1_str_2">① 스마트폰의 블루투스 기능을 켜주세요.</string>
+    <string name="fragment_register_prism_device1_str_3">② 제품의 메인화면에서 [설정] 버튼을 눌러주세요.</string>
+    <string name="fragment_register_prism_device1_str_4">③ 설정화면에서 [기타] 버튼을 눌러주세요.</string>
+    <string name="fragment_register_prism_device1_str_5">④ 기타화면에서 [Wi-Fi 설정] 버튼을 눌러주세요.</string>
+    <string name="fragment_register_prism_device1_str_6">⑤ Wi-Fi 설정화면에서 [나비엔 에어원 앱 설정] 버튼을 눌러주세요.</string>
+    <string name="fragment_register_prism_device1_str_7">에어 룸콘트롤러 찾기</string>
+
+    <!-- ikHwang 2019-06-05 프리즘 에어 룸콘트롤러 검색 완료 리스트 fragment_register_prism_device2.xml -->
+    <string name="fragment_register_prism_device2_str_1">제품 화면에 표시되는 아이디를 선택해 주세요.</string>
+
+    <!-- ikHwang 2019-06-19 AP 검색 완료 리스트 fragment_register_prism_device3.xml -->
+    <string name="fragment_register_prism_device3_str_1">제품 연결이 해제되었습니다.\n다시 시도해주세요.</string>
+    <string name="fragment_register_prism_device3_str_2">Wi-Fi 연결하기</string>
+    <string name="fragment_register_prism_device3_str_3">제품과 연결할 네트워크를 선택해주세요.</string>
+
+    <!-- ikHwang 2019-06-10 하단 메뉴 레이아웃 main_menu.xml -->
+    <string name="main_menu_str_1">홈</string>
+    <string name="main_menu_str_2">제어</string>
+    <string name="main_menu_str_3">스마트알림</string>
+    <string name="main_menu_str_4">생활리포트</string>
+    <string name="main_menu_str_5">팁&amp;이벤트</string>
+    <string name="main_menu_str_6">공기리포트</string>
+
+    <!-- ikHwang 2019-06-10 메인 홈화면 HomePrismFragment.java -->
+    <string name="HomeFirstFragment_str_1">기준</string>
+    <string name="HomeFirstFragment_str_2">청정환기</string>
+    <string name="HomeFirstFragment_str_3">청정환기 꺼짐</string>
+    <string name="HomeFirstFragment_str_4">청정환기 켜짐</string>
+    <string name="HomeFirstFragment_str_5">꺼짐</string>
+    <string name="HomeFirstFragment_str_6">켜짐</string>
+    <string name="HomeFirstFragment_str_7">UV 켜짐</string>
+    <string name="HomeFirstFragment_str_8">UV 꺼짐</string>
+    <string name="HomeFirstFragment_str_9">UV 해제</string>
+
+    <!-- ikHwang 2019-06-10 메인 홈화면 레이아웃 fragment_home_prism.xml -->
+    <string name="fragment_home_first_str_1">주소를 불러오는 중입니다.</string>
+    <string name="fragment_home_first_str_2">PM2.5</string>
+    <string name="fragment_home_first_str_3">PM10</string>
+    <string name="fragment_home_first_str_4">데이터 없음</string>
+    <string name="fragment_home_first_str_5">㎍/㎥</string>
+    <string name="fragment_home_first_str_6">ppm</string>
+    <string name="fragment_home_first_str_7">PM1.0</string>
+    <string name="fragment_home_first_str_8">PM2.5</string>
+    <string name="fragment_home_first_str_9">CO2</string>
+    <string name="fragment_home_first_str_10">TVOC</string>
+    <string name="fragment_home_first_str_11">에어모니터 연결됨</string>
+    <string name="fragment_home_first_str_12"><u>에어모니터 연결안됨</u></string>
+    <string name="fragment_home_first_str_13">환영합니다.\n에어모니터 페어링 연결을 설정해주세요.\n실내 공기질 정보를 실시간으로\n확인하실 수 있습니다.</string>
+    <string name="fragment_home_first_str_14">도움말</string>
+    <string name="fragment_home_first_str_15">실내</string>
+    <string name="fragment_home_first_str_16">통합공기질</string>
+    <string name="fragment_home_first_str_17">ppb</string>
+    <string name="fragment_home_first_str_18">연결안됨</string>
+    <string name="fragment_home_first_str_19">RADON</string>
+
+    <!-- ikHwang 2019-06-13 사용자 정보 변경 레이아웃 activity_modify_user.xml -->
+    <string name="activity_modify_user_str_1">10자리 이상 영문+숫자를 사용하세요.</string>
+    <string name="activity_modify_user_str_2">비밀번호가 일치하지 않습니다.</string>
+    <string name="activity_modify_user_str_3">형식에 맞지 않는 번호입니다.</string>
+
+    <!-- ikHwang 2019-07-02 블루투스 선택 화면 RegisterPrismBleSelectActivity.java -->
+    <string name="RegisterPrismBleSelectActivity">검색된 청정환기 제품이 없습니다.</string>
+
+    <!-- ikHwang 2019-07-10 사용자 정보 변경 레이아웃 activity_tip_and_event.xml -->
+    <string name="activity_tip_and_event_str_1">팁&amp;이벤트</string>
+    <string name="activity_tip_and_event_str_2">확인</string>
+    <string name="activity_tip_and_event_str_3">취소</string>
+
+    <!-- ikHwang 2019.04.25 제어화면 청정환기 꺼짐 문구 -->
+    <string name="control_off_text1">청정환기</string>
+    <string name="control_off_text2">꺼짐</string>
+
+    <!-- 2019.04.29 공기질 정보 하단 텍스트 문구 -->
+    <string name="air_info_bottom">&lt;공기 지수 측정 기준&gt;</string>
+    <string name="control_power_off_text1">청정환기</string>
+    <string name="control_power_off_text2">꺼짐</string>
+
+    <!-- ikHwang 2019-07-15 SSL 인증서 오류 -->
+    <string name="ssl_msg_1">이 사이트의 보안 인증서는 신뢰할 수 없습니다.\n계속 진행하시겠습니까?</string>
+    <string name="ssl_msg_2">보안 인증서에 오류가 있습니다.\n계속 진행하시겠습니까?</string>
+
+    <!-- ikHwang 2019-07-24 날짜 표시 패턴 LifeReportActivity.java -->
+    <string name="LifeReportActivity_str_1">M월 d일, E요일</string>
+    <string name="LifeReportActivity_str_2">M월 d일</string>
+    <string name="LifeReportActivity_str_3">M월 d일</string>
+    <string name="LifeReportActivity_str_4">yyyy년 M월</string>
+
+    <!-- ikHwang 2019-07-25 메인 필터관리 화면 MoreFilterManagePrismActivity.java -->
+    <string name="MoreFilterManageActivity_str_1">필터 사용 시간이 초기화 됩니다.\n필터 교체 후 필터 리셋 버튼을 눌러주세요.</string>
+    <string name="MoreFilterManageActivity_str_2">필터 리셋</string>
+    <string name="MoreFilterManageActivity_str_3">[초미세 집진필터]\n필터 사용 시간이 초기화 됩니다.\n필터 교체 후 필터 리셋 버튼을 눌러주세요.</string>
+    <string name="MoreFilterManageActivity_str_4">요리모드 종료 후 필터 리셋을\n실행해 주세요.</string>
+
+
+    <!-- ikHwang 2019-08-08 스마트 알림 화면 SmartAlarmActivity.java -->
+    <string name="SmartAlarmActivity_str_1">예(필터 리셋)</string>
+    <string name="SmartAlarmActivity_str_2">아니오</string>
+    <string name="SmartAlarmActivity_str_3">[프리필터]</string>
+    <string name="SmartAlarmActivity_str_4">[전자헤파필터]</string>
+    <string name="SmartAlarmActivity_str_5">[프리,전자헤파필터]</string>
+    <string name="SmartAlarmActivity_str_6">필터를 청소하셨나요?</string>
+
+    <!-- ikHwang 2019-08-26 에어모니터 밝기 조절 화면 AirMonitorLEDSettingActivity.java -->
+    <string name="AirMonitorLEDSettingActivity_str_1">LED 밝기</string>
+    <string name="AirMonitorLEDSettingActivity_str_2">매우밝음</string>
+    <string name="AirMonitorLEDSettingActivity_str_3">밝음</string>
+    <string name="AirMonitorLEDSettingActivity_str_4">보통</string>
+    <string name="AirMonitorLEDSettingActivity_str_5">어두움</string>
+
+    <!-- ikHwang 2019-08-27 필터관리(리스트) 화면 DeviceFilterListActivity.java -->
+    <string name="DeviceFilterListActivity_str_1">[프리필터]</string>
+    <string name="DeviceFilterListActivity_str_2">[전자헤파필터]</string>
+    <string name="DeviceFilterListActivity_str_3">필터 사용 시간이 초기화 됩니다.\n필터 청소 후 필터 리셋 버튼을 눌러주세요.</string>
+    <string name="DeviceFilterListActivity_str_4">아니오</string>
+    <string name="DeviceFilterListActivity_str_5">예(필터 리셋)</string>
+    <string name="DeviceFilterListActivity_str_6">사용 시간이 초기화 되었습니다..</string>
+
+    <!-- ikHwang 2019.06.26 청정환기 위젯 문구 -->
+    <string name="activity_filter_list_str_1">필터 관리</string>
+    <string name="activity_filter_list_str_2">헤파필터</string>
+    <string name="activity_filter_list_str_3">프리필터</string>
+    <string name="activity_filter_list_str_4">전자헤파필터</string>
+    <string name="activity_filter_list_str_5">필터 리셋</string>
+
+
+    <!-- ikHwang 2019.06.26 청정환기 위젯 문구 -->
+    <string name="layout_widget_new_str_1">청정환기 꺼짐</string>
+    <string name="layout_widget_new_str_2">청정환기 켜짐</string>
+    <string name="layout_widget_new_str_3">PM2.5</string>
+    <string name="layout_widget_new_str_4">CO2</string>
+    <string name="layout_widget_new_str_5">TVOC</string>
+    <string name="layout_widget_new_str_6">㎍/㎥</string>
+    <string name="layout_widget_new_str_7">ppm</string>
+    <string name="layout_widget_new_str_8">ppb</string>
+    <string name="layout_widget_new_str_9">정보없음</string>
+    <string name="layout_widget_new_str_10">좋음</string>
+    <string name="layout_widget_new_str_11">보통</string>
+    <string name="layout_widget_new_str_12">나쁨</string>
+    <string name="layout_widget_new_str_13">매우나쁨</string>
+    <string name="layout_widget_new_str_14">나비엔 에어원 연결에 실패하였습니다.\n다시 시도해주세요.</string>
+
+    <string name="layout_widget_new_str_15">통합공기질</string>
+    <string name="layout_widget_new_str_16">PM1.0</string>
+    <string name="layout_widget_new_str_17">나비엔 에어원 위젯을 사용하기 위해서는\n자동로그인이 필요합니다.</string>
+
+    <string name="layout_widget_new_str_18">기준</string>
+
+    <string name="activity_more_filter_manager_str_1">필터 관리</string>
+    <string name="activity_more_filter_manager_str_2">초미세 집진필터</string>
+    <string name="activity_more_filter_manager_str_3">사용 : </string>
+    <string name="activity_more_filter_manager_str_4">잔여 : </string>
+    <string name="activity_more_filter_manager_str_5">시간</string>
+    <string name="activity_more_filter_manager_str_6">필터 수명\n재설정 중입니다.</string>
+    <string name="activity_more_filter_manager_str_7">[초미세 집진필터]</string>
+    <string name="activity_more_filter_manager_str_8">필터 수명 재설정 중입니다.</string>
+
+    <!--  ikHwang 2020-01-06 개인정보 처리방침 activity_terms_of_service.xml  -->
+    <string name="terms_1">개인정보 수집 및 이용 동의(필수)</string>
+    <string name="terms_2">1. 처리 항목 및 목적</string>
+    <string name="terms_3">
+        회사는 다음의 목적을 위하여 다음 각 호의 개인정보 항목을 처리하고 있습니다. 처리하고 있는 개인정보는 다음의 목적 이외의 용도로는 이용되지 않으며, 이용 목적이 변경되는 경우에는 정보통신망 이용촉진 및 정보보호 등에 관한 법률 제22조 등 관계 법령에 따라 별도의 동의를 받는 등 필요한 조치를 이행할 예정입니다.
+
+        \n\n1.1 처리항목(필수)
+        \n1.1.1 회원 가입 등 앱 서비스 이용시 처리되는 정보
+        \n이름, 아이디, 비밀번호, 핸드폰 번호, 설치위치, 제품식별정보, 가동상태 정보, 에러발생시 에러 정보 및 상태정보
+        \n1.1.2 앱 서비스 이용 과정에서 생성 등 처리되는 정보
+        \n모바일 기기 정보(제조사, 모델, OS정보, 앱버전), 푸시토큰
+
+        \n\n1.2 처리목적
+        \n1.2.1 회원 가입 등 앱 서비스 이용시 처리되는 정보
+        \n회원가입, 제품에 대하여 스마트폰(태블릿 등)을 이용하여 원격제어를 할 수 있는 서비스 제공, 제품의 에러정보 및 상태정보 등을 통지하거나 이를 이용하여 이용고객의 사용패턴 분석, 제품 품질 개선, 제품에 대한 서비스 품질 개선 등을 위한 자료로 활용, 제품 설치 및 서비스 완료 후 처리 만족도 조사 시행 시 활용
+        \n1.2.2 앱 서비스 이용 과정에서 생성 등 처리되는 정보
+        \n앱 서비스를 이용한 제품 원격제어 기능 장애 발생 시 모바일 기기 정보 별 적합한 솔루션 제공, 휴면회원 적용 대상 알림, 제품의 에러정보 및 상태정보 등 앱 서비스 이용을 위해 필수적인 정보 알림, 앱서비스 이용 기록 통계 분석 등 품질 관리
+        \n※ 서비스 제공을 위해 필요한 최소한의 개인정보임으로 동의를 해 주셔야 서비스 이용이 가능합니다.
+        \n더 자세한 내용은 개인정보 처리방침과 약관 내용을 확인해 주세요.
+        \n※ 회사의 서비스 제공 등 계약의 이행에 필요한 경우 해당 위탁업무와 수탁자를 \'개인정보 처리 방침\'에 공개함으로써, 처리 위탁 동의에 갈음합니다.
+    </string>
+    <string name="terms_4">2. 이용 및 보유 기간</string>
+    <string name="terms_5" formatted="false" >
+        2.1 회사는 법령에 따른 개인정보 보유·이용기간 또는 정보주체로부터 개인정보를 수집 시에 동의 받은 개인정보 보유·이용기간 내에서 개인정보를 처리․보유합니다.
+
+        \n\n2.2 제1조에 의해 수집된 개인 정보 처리 및 보유 기간은 다음 각 호와 같습니다.
+        \n2.2.1 회원 가입 등 앱 서비스 이용시 처리되는 정보: 회원탈퇴 시까지 보유
+        \n2.2.2 앱 서비스 이용 과정에서 생성 등 처리되는 정보: 회원탈퇴 시까지 보유
+        \n2.2.3 『전자상거래 등에서의 소비자에 관한 법률』에 따른 계약 또는 청약철회, 대금 결제 및 재화 등의 공급 기록: 5년
+        \n2.2.4 『통신비밀보호법』에 따른 통신사실 확인자료(컴퓨터통신, 인터넷 로그기록자료, 접속지 추적자료) 보관: 3개월
+        \n2.3 회사는 \'개인정보 유효기간제\'에 따라 1년간 서비스를 이용하지 않은 회원의 개인정보를 별도로 분리 보관하여 관리합니다.
+    </string>
+
+    <string name="terms_6" formatted="false">회원 가입 등 앱 서비스 이용시 처리되는 정보: 회원탈퇴 시까지 보유</string>
+    <string name="terms_7" formatted="false">앱 서비스 이용 과정에서 생성 등 처리되는 정보: 회원탈퇴 시까지 보유</string>
+
+    <string name="activity_air_monitor_detail_str_1">NAA-20DM</string>
+    <string name="activity_air_monitor_detail_str_2">NAA-30DM</string>
+    <string name="activity_air_monitor_detail_str_3">NTS-20W</string>
+    <string name="activity_air_monitor_detail_str_4">에어모니터 확인하기</string>
+    <string name="activity_air_monitor_detail_str_5">1. 전원 상태 확인하기</string>
+    <string name="activity_air_monitor_detail_str_6">에어모니터의 전원이 켜져 있는지 확인해 주세요.\n전원의 꺼져있다면 제품 %s의 [전원] 버튼을 2초간 눌 러 전원을 켜주세요.</string>
+    <string name="activity_air_monitor_detail_str_7">상단</string>
+    <string name="activity_air_monitor_detail_str_8">옆면</string>
+    <string name="activity_air_monitor_detail_str_9">2. 네트워크 상태 확인하기</string>
+    <string name="activity_air_monitor_detail_str_10">에어모니터 상단의 LED 조명이 주황색으로 깜빡인다 면, 연결 상태 확인이 필요합니다.</string>
+    <string name="activity_air_monitor_detail_str_11">에어모니터 정면의 페어링 LED 조명이 파랑색으로 깜빡인다면, 연결 상태 확인이 필요합니다.</string>
+    <string name="activity_air_monitor_detail_str_12">① 에어 룸콘트롤러가 바뀌었다면 에어 룸콘트롤러 연 결을 재설정해 주세요.</string>
+    <string name="activity_air_monitor_detail_str_13">② 에어모니터와 에어 룸콘트롤러와의 위치를 통신 가 능한 거리로 이동해 주세요.</string>
+    <string name="activity_air_monitor_detail_str_14">③ 에어모니터의 전원 케이블을 재연결해 주세요.</string>
+    <string name="activity_air_monitor_detail_str_15">④ 지속적으로 네트워크 연결 문제가 발생 할 경우 에어 룸콘트롤러를 재설정해 주세요.</string>
+    <string name="activity_air_monitor_detail_str_16">3. 에어모니터 재등록 하기</string>
+    <string name="activity_air_monitor_detail_str_17">에어모니터 고장 및 교체 시 제품을 재등록해 주세요.</string>
+    <string name="activity_air_monitor_detail_str_18">도움말</string>
+</resources>
